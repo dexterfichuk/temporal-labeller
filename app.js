@@ -1,4 +1,4 @@
-// Spawn Labeller: label satellite detections as spawn / not spawn / unsure.
+// Temporal Labeller: label remote-sensing time series (earlier passes, event date, overlays) with your own classes.
 // Labels live in this browser (localStorage) and export as OlmoEarth GeoJSON, CSV or a labels file.
 (() => {
   const PRELOAD = 4;
@@ -8,7 +8,15 @@
     set(k, v) { try { localStorage.setItem(k, v); } catch {} },
   };
 
-  let ALL = [], view = [], idx = 0, labels = {}, key = '', taskName = 'herring_spawn', manifestName = '';
+  let ALL = [], view = [], idx = 0, labels = {}, key = '', taskName = 'label_task', manifestName = '';
+  // Classes come from the manifest; `positive` decides sample_true_false in the OlmoEarth export (null = left out).
+  const DEFAULT_CLASSES = [
+    { value: 'yes', label: 'Present', positive: true, color: '#0e8c87' },
+    { value: 'no', label: 'Absent', positive: false, color: '#c2493d' },
+    { value: 'unsure', label: 'Unsure', positive: null, color: '#b7791f' },
+  ];
+  let CLASSES = DEFAULT_CLASSES;
+  const cls = v => CLASSES.find(c => c.value === v);
 
   const SENSOR = { S2: 'Sentinel-2', L89: 'Landsat 8/9', L: 'Landsat 8/9', PS: 'PlanetScope' };
   const fmtDate = d => new Date(d + 'T12:00:00Z').toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
@@ -31,12 +39,17 @@
   async function loadManifest(json, name, base) {
     const items = Array.isArray(json) ? json : json.items;
     if (!Array.isArray(items)) throw new Error('Manifest must be a list of items or { "items": [...] }');
-    taskName = (!Array.isArray(json) && json.task_name) || 'herring_spawn';
+    const cfg = Array.isArray(json) ? {} : json;
+    taskName = cfg.task_name || 'label_task';
+    CLASSES = Array.isArray(cfg.classes) && cfg.classes.length ? cfg.classes : DEFAULT_CLASSES;
+    $('question').textContent = cfg.question || 'Is the target present?';
     manifestName = (!Array.isArray(json) && json.name) || name;
     ALL = items.filter(d => d && d.id && d.date && d.lat != null && d.lon != null).map(d => ({ ...d, _frames: framesOf(d, base) }));
-    key = 'spawn-labeller:' + manifestName;
+    buildChoices();
+    key = 'temporal-labeller:' + manifestName;
     labels = JSON.parse(store.get(key) || '{}');
-    $('title').textContent = (!Array.isArray(json) && json.title) || 'Spawn Labeller';
+    $('title').textContent = cfg.title || 'Temporal Labeller';
+    document.title = cfg.title || 'Temporal Labeller';
     $('app').hidden = false; $('empty').hidden = true;
     const f0 = store.get(key + ':filter'); if (f0) $('filter').value = f0;
     view = ALL.slice(); idx = 0; applyFilter();
@@ -47,7 +60,8 @@
     const f = $('filter').value, cur = view[idx] && view[idx].id;
     const lab = d => (labels[d.id] || {}).label;
     view = ALL.filter(d => f === 'all' ? true : f === 'unlabeled' ? !lab(d)
-      : f === 'negative' ? d.kind === 'negative' : f === 'positive' ? d.kind !== 'negative' : lab(d) === f);
+      : f === 'kind:negative' ? d.kind === 'negative' : f === 'kind:positive' ? d.kind !== 'negative'
+      : f.startsWith('class:') ? lab(d) === f.slice(6) : true);
     const keep = view.findIndex(d => d.id === cur);
     idx = keep >= 0 ? keep : Math.max(0, Math.min(idx, view.length - 1));
     store.set(key + ':filter', f);
@@ -89,7 +103,8 @@
     const add = (t, c) => { if (!t) return; const s = document.createElement('span'); s.className = 'chip' + (c ? ' ' + c : ''); s.textContent = t; chips.append(s); };
     add(d.status, d.status === 'dfo_confirmed' ? 'dfo' : '');
     if (d.kind === 'negative') add('Negative');
-    if (d.missed_spawn) add('Possible missed spawn', 'miss');
+    (d.tags || []).forEach(t => add(t, 'miss'));
+    if (d.missed_spawn) add('Possible missed event', 'miss');
     add(SENSOR[d.sensor] || d.sensor);
     el.append(chips);
     const dl = document.createElement('dl');
@@ -99,10 +114,11 @@
     row('Location', `${(+d.lat).toFixed(4)}, ${(+d.lon).toFixed(4)}`, `https://www.google.com/maps/@${d.lat},${d.lon},14z/data=!3m1!1e3`);
     const area = d.area_m2 ?? d.hot_m2;
     if (area != null) row('Patch area', area >= 10000 ? `${(area / 10000).toFixed(1)} ha` : `${Math.round(area).toLocaleString()} m²`);
-    if (d.shsi_mean != null) row('SHSI', `mean ${(+d.shsi_mean).toFixed(2)}${d.shsi_max != null ? ` · max ${(+d.shsi_max).toFixed(2)}` : ''}`);
-    if (d.dshsi_mean != null) row('Change vs Feb', `+${(+d.dshsi_mean).toFixed(2)} SHSI`);
+    if (d.shsi_mean != null) row('Index', `mean ${(+d.shsi_mean).toFixed(2)}${d.shsi_max != null ? ` · max ${(+d.shsi_max).toFixed(2)}` : ''}`);
+    if (d.dshsi_mean != null) row('Change vs baseline', `+${(+d.dshsi_mean).toFixed(2)}`);
     if (d.km_station != null) row('Distance', `${d.km_station} km from station`);
-    row('DFO record', d.dfo_match || 'None nearby');
+    if (d.dfo_match !== undefined) row('Reference record', d.dfo_match || 'None nearby');
+    Object.entries(d.fields || {}).forEach(([k, v]) => row(k, typeof v === 'number' ? (+v.toFixed(4)).toLocaleString() : String(v)));
     row('ID', d.id);
     el.append(dl);
     if (d.note) { const p = document.createElement('p'); p.className = 'note'; p.textContent = d.note; el.append(p); }
@@ -118,12 +134,12 @@
   }
 
   function renderProgress() {
-    const n = { spawn: 0, not: 0, unsure: 0 };
+    const n = Object.fromEntries(CLASSES.map(c => [c.value, 0]));
     ALL.forEach(d => { const l = labels[d.id]; if (l && n[l.label] != null) n[l.label]++; });
     const bar = $('bar'); bar.textContent = '';
-    [['spawn', 'var(--spawn)'], ['not', 'var(--not)'], ['unsure', 'var(--unsure)']].forEach(([k, c]) => {
-      const i = document.createElement('i'); i.style.width = (100 * n[k] / Math.max(ALL.length, 1)) + '%'; i.style.background = c; bar.append(i); });
-    $('counts').textContent = `${n.spawn + n.not + n.unsure}/${ALL.length} labelled · ${n.spawn} spawn · ${n.not} not · ${n.unsure} unsure`;
+    CLASSES.forEach(c => { const i = document.createElement('i'); i.style.width = (100 * n[c.value] / Math.max(ALL.length, 1)) + '%'; i.style.background = c.color || 'var(--accent)'; bar.append(i); });
+    const done = Object.values(n).reduce((a, b) => a + b, 0);
+    $('counts').textContent = `${done}/${ALL.length} labelled · ` + CLASSES.map(c => `${n[c.value]} ${c.label.toLowerCase()}`).join(' · ');
   }
 
   function preload() {
@@ -150,7 +166,18 @@
   $('note').addEventListener('input', () => { clearTimeout(noteTimer); const d = view[idx]; if (!d) return;
     noteTimer = setTimeout(() => { if (labels[d.id] || $('note').value.trim()) save(d.id, { label: (labels[d.id] || {}).label || 'unsure', note: $('note').value.trim() }); }, 800); });
 
-  document.querySelectorAll('.choice').forEach(b => b.addEventListener('click', () => choose(b.dataset.v)));
+  function buildChoices() {
+    const box = $('choices'); box.textContent = ''; box.style.setProperty('--k', Math.min(CLASSES.length, 4));
+    CLASSES.forEach((c, i) => {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'choice'; b.dataset.v = c.value;
+      b.style.setProperty('--c', c.color || 'var(--accent)');
+      b.append(c.label); if (i < 9) { const k = document.createElement('kbd'); k.textContent = String(i + 1); b.append(k); }
+      b.addEventListener('click', () => choose(c.value)); box.append(b);
+    });
+    const f = $('filter'); f.length = 2;
+    CLASSES.forEach(c => f.add(new Option(`Labelled ${c.label.toLowerCase()}`, 'class:' + c.value)));
+    if (ALL.some(d => d.kind)) { f.add(new Option('Detections only', 'kind:positive')); f.add(new Option('Negatives only', 'kind:negative')); }
+  }
   $('prev').onclick = () => { if (idx > 0) { idx--; render(); } };
   $('next').onclick = () => { if (idx < view.length - 1) { idx++; render(); } };
   $('filter').onchange = applyFilter;
@@ -163,9 +190,7 @@
     if (!$('zoom').hidden && e.key === 'Escape') { $('zoom').hidden = true; return; }
     if (e.key === 'ArrowRight') $('next').click();
     else if (e.key === 'ArrowLeft') $('prev').click();
-    else if (e.key === '1') choose('spawn');
-    else if (e.key === '2') choose('not');
-    else if (e.key === '3') choose('unsure');
+    else if (/^[1-9]$/.test(e.key) && CLASSES[+e.key - 1]) choose(CLASSES[+e.key - 1].value);
   });
 
   // ---- export / import ----
@@ -175,11 +200,12 @@
   }
   const stem = () => (manifestName || 'labels').replace(/\.json$/i, '').replace(/[^\w.-]+/g, '_');
 
-  // OlmoEarth point format: task_name, observation_time, sample_true_false. Unsure items are left out.
+  // OlmoEarth point format: task_name, observation_time, sample_true_false. Classes with positive: null are left out.
   $('exportGeo').onclick = () => {
-    const features = ALL.filter(d => ['spawn', 'not'].includes((labels[d.id] || {}).label)).map(d => ({
+    const pos = d => { const c = cls((labels[d.id] || {}).label); return c ? c.positive : null; };
+    const features = ALL.filter(d => typeof pos(d) === 'boolean').map(d => ({
       type: 'Feature',
-      properties: { task_name: taskName, observation_time: `${d.date}T00:00:00Z`, sample_true_false: labels[d.id].label === 'spawn' },
+      properties: { task_name: taskName, observation_time: `${d.date}T00:00:00Z`, sample_true_false: pos(d) },
       geometry: { type: 'Point', coordinates: [+(+d.lon).toFixed(5), +(+d.lat).toFixed(5)] },
     }));
     download(`${stem()}_olmoearth.geojson`, JSON.stringify({ type: 'FeatureCollection', features }, null, 2), 'application/geo+json');

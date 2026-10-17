@@ -1,6 +1,6 @@
 {
- "name": "example",
- "title": "Spawn Labeller \u00b7 example",
+ "name": "herring-spawn-example",
+ "title": "Herring spawn \u00b7 example",
  "task_name": "herring_spawn",
  "items": [
   {
@@ -35,7 +35,8 @@
    },
    "det_url": "images/dfo_2022-03-02_Kye_Bay_det_2022-03-04.jpg",
    "overlay_url": "images/dfo_2022-03-02_Kye_Bay_overlay_2022-03-04.jpg",
-   "ref_also_hot": false
+   "ref_also_hot": false,
+   "fields": {}
   },
   {
    "id": "lr4_2019m03m18_51p2897_m127p6090",
@@ -49,8 +50,6 @@
    "lat": 51.28974,
    "lon": -127.60899,
    "area_m2": 48174,
-   "shsi_mean": 0.227,
-   "dshsi_mean": 0.209,
    "km_station": 98.5,
    "years_here": 2,
    "dfo_match": "Birkby Pt 2019-03-19;Broad Bay 2019-03-19;Crabpot Pt 2019-03-19;Takush Hrbr 2019-03-19",
@@ -71,7 +70,12 @@
     "url": "images/lr4_2019m03m18_51p2897_m127p6090_ref_2019-02-16.jpg"
    },
    "det_url": "images/lr4_2019m03m18_51p2897_m127p6090_det_2019-03-18.jpg",
-   "overlay_url": "images/lr4_2019m03m18_51p2897_m127p6090_overlay_2019-03-18.jpg"
+   "overlay_url": "images/lr4_2019m03m18_51p2897_m127p6090_overlay_2019-03-18.jpg",
+   "fields": {
+    "SHSI mean": 0.227,
+    "SHSI change vs Feb": 0.209
+   },
+   "place": "Crabpot Pt, Smith Inlet"
   },
   {
    "id": "lr4_2019m03m20_50p6162_m126p5829",
@@ -87,8 +91,6 @@
    "lat": 50.61618,
    "lon": -126.58294,
    "area_m2": 70145,
-   "shsi_mean": 0.397,
-   "dshsi_mean": 0.35,
    "km_station": 15.6,
    "years_here": 1,
    "dfo_match": null,
@@ -109,7 +111,12 @@
     "url": "images/lr4_2019m03m20_50p6162_m126p5829_ref_2019-02-13.jpg"
    },
    "det_url": "images/lr4_2019m03m20_50p6162_m126p5829_det_2019-03-20.jpg",
-   "overlay_url": "images/lr4_2019m03m20_50p6162_m126p5829_overlay_2019-03-20.jpg"
+   "overlay_url": "images/lr4_2019m03m20_50p6162_m126p5829_overlay_2019-03-20.jpg",
+   "fields": {
+    "SHSI mean": 0.397,
+    "SHSI change vs Feb": 0.35
+   },
+   "place": "Islet near Village Is., Broughton"
   },
   {
    "id": "lr4_2019m03m18_50p6627_m126p5157",
@@ -125,8 +132,6 @@
    "lat": 50.66271,
    "lon": -126.51575,
    "area_m2": 31879,
-   "shsi_mean": 0.572,
-   "dshsi_mean": 0.516,
    "km_station": 9.3,
    "years_here": 1,
    "dfo_match": null,
@@ -147,7 +152,12 @@
     "url": "images/lr4_2019m03m18_50p6627_m126p5157_ref_2019-02-13.jpg"
    },
    "det_url": "images/lr4_2019m03m18_50p6627_m126p5157_det_2019-03-18.jpg",
-   "overlay_url": "images/lr4_2019m03m18_50p6627_m126p5157_overlay_2019-03-18.jpg"
+   "overlay_url": "images/lr4_2019m03m18_50p6627_m126p5157_overlay_2019-03-18.jpg",
+   "fields": {
+    "SHSI mean": 0.572,
+    "SHSI change vs Feb": 0.516
+   },
+   "place": "Bay south of Echo Bay, Broughton"
   },
   {
    "id": "dfo_2021-04-17_Wakeman_Snd_neg",
@@ -181,7 +191,29 @@
    },
    "det_url": "images/dfo_2021-04-17_Wakeman_Snd_neg_det_2021-04-18.jpg",
    "overlay_url": "images/dfo_2021-04-17_Wakeman_Snd_neg_overlay_2021-04-18.jpg",
-   "ref_also_hot": false
+   "ref_also_hot": false,
+   "fields": {}
+  }
+ ],
+ "question": "Is this a herring spawn?",
+ "classes": [
+  {
+   "value": "spawn",
+   "label": "Spawn",
+   "positive": true,
+   "color": "#0e8c87"
+  },
+  {
+   "value": "not",
+   "label": "Not spawn",
+   "positive": false,
+   "color": "#c2493d"
+  },
+  {
+   "value": "unsure",
+   "label": "Unsure",
+   "positive": null,
+   "color": "#b7791f"
   }
  ]
 }

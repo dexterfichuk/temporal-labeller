@@ -4,15 +4,20 @@ For each input point it saves, as local JPGs (so links never expire):
   - up to two clear passes in the 30 days before the date,
   - a clear reference pass about a month before (20-45 days, closest to 30),
   - the date's true-colour image,
-  - the same image with SHSI hotspot pixels in cyan (green^2/red > 0.15 over clear water,
-    NIR < 0.025, green > 0.025, blue > coastal).
+  - the same image with an index overlay in cyan (--overlay):
+      shsi  green^2/red > threshold over clear water with NIR < 0.025, green > 0.025, blue > coastal
+            (Spectral Herring Spawning Index; default threshold 0.15)
+      ndwi  (green - NIR) / (green + NIR) > threshold (default 0.2)
+      ndvi  (NIR - red) / (NIR + red) > threshold (default 0.4)
+      none  no overlay frame
 
 Input: a GeoJSON FeatureCollection of Points, or a CSV with id,date,lat,lon[,place,...].
 Extra properties/columns are copied into the manifest items.
 
   pip install earthengine-api
   earthengine authenticate
-  python tools/make_manifest.py points.geojson out/ --project my-ee-project
+  python tools/make_manifest.py points.geojson out/ --project my-ee-project --overlay ndwi \
+      --task-name flooding --question 'Is there flooding?'
   # then open index.html?manifest=out/manifest.json (serve the repo folder, e.g. python -m http.server)
 """
 import argparse, csv, datetime as dt, json, math, os, re, subprocess
@@ -41,7 +46,10 @@ def main():
     ap.add_argument('points'); ap.add_argument('out')
     ap.add_argument('--project', required=True, help='Earth Engine Cloud project')
     ap.add_argument('--half-width-m', type=float, default=2000, help='half the box width around each point')
-    ap.add_argument('--task-name', default='herring_spawn')
+    ap.add_argument('--task-name', default='label_task')
+    ap.add_argument('--question', default='Is the target present?')
+    ap.add_argument('--overlay', choices=['shsi', 'ndwi', 'ndvi', 'none'], default='shsi')
+    ap.add_argument('--threshold', type=float, help='overlay threshold (defaults per index)')
     ap.add_argument('--workers', type=int, default=6)
     a = ap.parse_args()
     ee.Initialize(project=a.project)
@@ -60,11 +68,17 @@ def main():
     def day(region, d):
         return col(region, d, (dt.date.fromisoformat(d) + dt.timedelta(days=1)).isoformat()).mosaic()
 
+    thr = a.threshold if a.threshold is not None else {'shsi': 0.15, 'ndwi': 0.2, 'ndvi': 0.4}.get(a.overlay)
+
     def hot(img):
         r = img.select(['B1', 'B2', 'B3', 'B4', 'B8']).divide(10000)
         c, b, g, rd, n = [r.select(x) for x in ['B1', 'B2', 'B3', 'B4', 'B8']]
-        clear = water.And(img.select('cs_cdf').gte(0.6))
-        return clear.And(n.lt(0.025)).And(g.gt(0.025)).And(b.gt(c)).And(g.multiply(g).divide(rd).gt(0.15))
+        clear = img.select('cs_cdf').gte(0.6)
+        if a.overlay == 'shsi':
+            return clear.And(water).And(n.lt(0.025)).And(g.gt(0.025)).And(b.gt(c)).And(g.multiply(g).divide(rd).gt(thr))
+        if a.overlay == 'ndwi':
+            return clear.And(g.subtract(n).divide(g.add(n)).gt(thr))
+        return clear.And(n.subtract(rd).divide(n.add(rd)).gt(thr))
 
     def clear_dates(region, d0, d1):
         def f(img):
@@ -97,8 +111,9 @@ def main():
             m = day(region, p['date'])
             pt = ee.Image().byte().paint(ee.FeatureCollection([ee.Feature(ee.Geometry.Point([p['lon'], p['lat']]).buffer(80))]), 1, 2).visualize(palette=['ffff00'])
             item['det_url'] = save(rgb(m), region, f'{iid}_det_{p["date"]}.jpg')
-            item['overlay_url'] = save(ee.ImageCollection([rgb(m), hot(m).selfMask().visualize(palette=['00ffff'], opacity=0.7), pt]).mosaic(),
-                                       region, f'{iid}_overlay_{p["date"]}.jpg')
+            if a.overlay != 'none':
+                item['overlay_url'] = save(ee.ImageCollection([rgb(m), hot(m).selfMask().visualize(palette=['00ffff'], opacity=0.7), pt]).mosaic(),
+                                           region, f'{iid}_overlay_{p["date"]}.jpg')
             print('ok', p['id'], flush=True)
             return item
         except Exception as ex:  # one bad point shouldn't stop the batch
@@ -109,7 +124,7 @@ def main():
     with ThreadPoolExecutor(a.workers) as ex:
         items = [x for x in ex.map(render, pts) if x]
     name = os.path.basename(os.path.normpath(a.out))
-    json.dump({'name': name, 'title': f'Spawn Labeller · {name}', 'task_name': a.task_name, 'items': items},
+    json.dump({'name': name, 'title': name, 'task_name': a.task_name, 'question': a.question, 'items': items},
               open(os.path.join(a.out, 'manifest.json'), 'w'), indent=1)
     print(f'{len(items)}/{len(pts)} items -> {os.path.join(a.out, "manifest.json")}')
 

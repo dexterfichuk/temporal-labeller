@@ -73,12 +73,9 @@ dd { margin: 0; font-family: var(--font-data); font-size: 13px; overflow-wrap: a
 a { color: var(--accent); }
 
 .label h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 10px; font-weight: 600; }
-.choices { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.choices { display: grid; grid-template-columns: repeat(var(--k, 3), minmax(0, 1fr)); gap: 8px; }
 .choice { border: 1.5px solid var(--line); background: var(--surface); border-radius: 10px; padding: 12px 8px; cursor: pointer; font-weight: 600; display: grid; gap: 2px; justify-items: center; }
 .choice kbd { font-family: var(--font-data); font-size: 11px; color: var(--muted); font-weight: 400; }
-.choice[data-v="spawn"].on { background: var(--spawn); border-color: var(--spawn); color: var(--accent-ink); }
-.choice[data-v="not"].on { background: var(--not); border-color: var(--not); color: var(--accent-ink); }
-.choice[data-v="unsure"].on { background: var(--unsure); border-color: var(--unsure); color: var(--accent-ink); }
 .choice.on kbd { color: inherit; opacity: .8; }
 textarea { width: 100%; box-sizing: border-box; margin-top: 10px; min-height: 64px; resize: vertical; font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
 .status { font-size: 12px; color: var(--muted); margin-top: 8px; min-height: 1.2em; }
@@ -132,3 +129,5 @@ textarea { width: 100%; box-sizing: border-box; margin-top: 10px; min-height: 64
   .frame figcaption b { font-weight: 500; }
 }
 @media (max-width: 760px) { h1 { font-size: 14px; max-width: 34vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }
+
+.choice.on { background: var(--c); border-color: var(--c); color: #fff; }
