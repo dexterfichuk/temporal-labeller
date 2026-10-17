@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Spawn Labeller</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1 id="title">Spawn Labeller</h1>
+    <div class="progress">
+      <div class="bar" id="bar" aria-hidden="true"></div>
+      <span class="counts" id="counts">No manifest loaded</span>
+    </div>
+    <label class="hint showlbl" for="filter">Show</label>
+    <select id="filter">
+      <option value="all">All</option>
+      <option value="unlabeled">Unlabeled only</option>
+      <option value="spawn">Labelled spawn</option>
+      <option value="not">Labelled not spawn</option>
+      <option value="unsure">Labelled unsure</option>
+      <option value="positive">Detections only</option>
+      <option value="negative">Negatives only</option>
+    </select>
+    <details class="more"><summary class="btn">Files ▾</summary><div class="tools">
+      <label class="btn" for="loadManifest">Open manifest…</label>
+      <input type="file" id="loadManifest" accept=".json,application/json">
+      <button class="btn" id="exportGeo" type="button">Export GeoJSON</button>
+      <button class="btn" id="exportCsv" type="button">Export CSV</button>
+      <button class="btn" id="exportLabels" type="button">Save labels</button>
+      <label class="btn" for="importLabels">Load labels…</label>
+      <input type="file" id="importLabels" accept=".json,application/json">
+    </div></details>
+  </div>
+</header>
+
+<main>
+  <div class="wrap" id="app" hidden>
+    <div class="nav">
+      <button class="btn" id="prev" type="button">← Previous</button>
+      <button class="btn" id="next" type="button">Next →</button>
+      <span class="pos" id="pos"></span>
+      <span class="hint">Keys: ← → to move, 1 spawn, 2 not spawn, 3 unsure. Click an image to enlarge.</span>
+    </div>
+
+    <section class="strip" id="strip" aria-label="Satellite images, oldest first"></section>
+
+    <section class="detail">
+      <div class="card" id="facts"></div>
+      <div class="card label">
+        <h2>Is this a herring spawn?</h2>
+        <div class="choices" role="group" aria-label="Label">
+          <button class="choice" type="button" data-v="spawn">Spawn<kbd>1</kbd></button>
+          <button class="choice" type="button" data-v="not">Not spawn<kbd>2</kbd></button>
+          <button class="choice" type="button" data-v="unsure">Unsure<kbd>3</kbd></button>
+        </div>
+        <textarea id="note" placeholder="Optional note, e.g. creek plume, tidal flat, cloud edge"></textarea>
+        <div class="status" id="status"></div>
+      </div>
+    </section>
+  </div>
+  <div class="empty" id="empty">
+    <p>Open a manifest to start labelling, or add <code>?manifest=path/to/manifest.json</code> to the URL.</p>
+    <p><a href="?manifest=examples/manifest.json">Try the example manifest</a></p>
+  </div>
+</main>
+
+<div class="zoom" id="zoom" hidden><div id="zoomImg" role="img" aria-label="Enlarged image"><img id="zoomPic" alt=""></div><p id="zoomCap"></p></div>
+
+<script src="app.js"></script>
+</body>
+</html>

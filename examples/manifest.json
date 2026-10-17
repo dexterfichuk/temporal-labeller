@@ -1,0 +1,187 @@
+{
+ "name": "example",
+ "title": "Spawn Labeller \u00b7 example",
+ "task_name": "herring_spawn",
+ "items": [
+  {
+   "id": "dfo_2022-03-02_Kye_Bay",
+   "kind": "candidate",
+   "date": "2022-03-04",
+   "sensor": "S2",
+   "variant": "A",
+   "place": "Kye Bay",
+   "region": "SoG",
+   "section": "141",
+   "lat": 49.71278,
+   "lon": -124.87639,
+   "hot_m2": 4942223,
+   "clear_frac": 1.0,
+   "dfo_match": "DFO spawn Kye Bay 2022-03-02..2022-03-06 (1 records, total length 4325 m, max width 412 m)",
+   "status": "dfo_candidate",
+   "prev": [
+    {
+     "date": "2022-02-07",
+     "url": "images/dfo_2022-03-02_Kye_Bay_prev_2022-02-07.jpg"
+    },
+    {
+     "date": "2022-02-22",
+     "url": "images/dfo_2022-03-02_Kye_Bay_prev_2022-02-22.jpg"
+    }
+   ],
+   "ref": {
+    "date": "2022-02-07",
+    "days_before": 25,
+    "url": "images/dfo_2022-03-02_Kye_Bay_ref_2022-02-07.jpg"
+   },
+   "det_url": "images/dfo_2022-03-02_Kye_Bay_det_2022-03-04.jpg",
+   "overlay_url": "images/dfo_2022-03-02_Kye_Bay_overlay_2022-03-04.jpg",
+   "ref_also_hot": false
+  },
+  {
+   "id": "lr4_2019m03m18_51p2897_m127p6090",
+   "kind": "candidate",
+   "date": "2019-03-18",
+   "event_dates": [
+    "2019-03-18"
+   ],
+   "sensor": "S2",
+   "variant": "C_change",
+   "lat": 51.28974,
+   "lon": -127.60899,
+   "area_m2": 48174,
+   "shsi_mean": 0.227,
+   "dshsi_mean": 0.209,
+   "km_station": 98.5,
+   "years_here": 2,
+   "dfo_match": "Birkby Pt 2019-03-19;Broad Bay 2019-03-19;Crabpot Pt 2019-03-19;Takush Hrbr 2019-03-19",
+   "status": "lr4_candidate",
+   "prev": [
+    {
+     "date": "2019-03-03",
+     "url": "images/lr4_2019m03m18_51p2897_m127p6090_prev_2019-03-03.jpg"
+    },
+    {
+     "date": "2019-03-08",
+     "url": "images/lr4_2019m03m18_51p2897_m127p6090_prev_2019-03-08.jpg"
+    }
+   ],
+   "ref": {
+    "date": "2019-02-16",
+    "days_before": 30,
+    "url": "images/lr4_2019m03m18_51p2897_m127p6090_ref_2019-02-16.jpg"
+   },
+   "det_url": "images/lr4_2019m03m18_51p2897_m127p6090_det_2019-03-18.jpg",
+   "overlay_url": "images/lr4_2019m03m18_51p2897_m127p6090_overlay_2019-03-18.jpg"
+  },
+  {
+   "id": "lr4_2019m03m20_50p6162_m126p5829",
+   "kind": "candidate",
+   "date": "2019-03-20",
+   "event_dates": [
+    "2019-03-18",
+    "2019-03-20",
+    "2019-03-30"
+   ],
+   "sensor": "S2",
+   "variant": "C_change",
+   "lat": 50.61618,
+   "lon": -126.58294,
+   "area_m2": 70145,
+   "shsi_mean": 0.397,
+   "dshsi_mean": 0.35,
+   "km_station": 15.6,
+   "years_here": 1,
+   "dfo_match": null,
+   "status": "lr4_candidate",
+   "prev": [
+    {
+     "date": "2019-03-08",
+     "url": "images/lr4_2019m03m20_50p6162_m126p5829_prev_2019-03-08.jpg"
+    },
+    {
+     "date": "2019-03-18",
+     "url": "images/lr4_2019m03m20_50p6162_m126p5829_prev_2019-03-18.jpg"
+    }
+   ],
+   "ref": {
+    "date": "2019-02-13",
+    "days_before": 35,
+    "url": "images/lr4_2019m03m20_50p6162_m126p5829_ref_2019-02-13.jpg"
+   },
+   "det_url": "images/lr4_2019m03m20_50p6162_m126p5829_det_2019-03-20.jpg",
+   "overlay_url": "images/lr4_2019m03m20_50p6162_m126p5829_overlay_2019-03-20.jpg"
+  },
+  {
+   "id": "lr4_2019m03m18_50p6627_m126p5157",
+   "kind": "candidate",
+   "date": "2019-03-18",
+   "event_dates": [
+    "2019-03-18",
+    "2019-03-20",
+    "2019-03-30"
+   ],
+   "sensor": "S2",
+   "variant": "C_change",
+   "lat": 50.66271,
+   "lon": -126.51575,
+   "area_m2": 31879,
+   "shsi_mean": 0.572,
+   "dshsi_mean": 0.516,
+   "km_station": 9.3,
+   "years_here": 1,
+   "dfo_match": null,
+   "status": "lr4_candidate",
+   "prev": [
+    {
+     "date": "2019-03-08",
+     "url": "images/lr4_2019m03m18_50p6627_m126p5157_prev_2019-03-08.jpg"
+    },
+    {
+     "date": "2019-03-13",
+     "url": "images/lr4_2019m03m18_50p6627_m126p5157_prev_2019-03-13.jpg"
+    }
+   ],
+   "ref": {
+    "date": "2019-02-13",
+    "days_before": 33,
+    "url": "images/lr4_2019m03m18_50p6627_m126p5157_ref_2019-02-13.jpg"
+   },
+   "det_url": "images/lr4_2019m03m18_50p6627_m126p5157_det_2019-03-18.jpg",
+   "overlay_url": "images/lr4_2019m03m18_50p6627_m126p5157_overlay_2019-03-18.jpg"
+  },
+  {
+   "id": "dfo_2021-04-17_Wakeman_Snd_neg",
+   "kind": "negative",
+   "date": "2021-04-18",
+   "sensor": "S2",
+   "variant": "A",
+   "place": "Wakeman Snd",
+   "region": "NA",
+   "section": "126",
+   "lat": 50.98472,
+   "lon": -126.51528,
+   "hot_m2": 0,
+   "clear_frac": 1.0,
+   "dfo_match": "DFO spawn Wakeman Snd 2021-04-17..2021-04-24 (2 records, total length 6650 m, max width 9 m)",
+   "status": "dfo_clear_no_hit",
+   "prev": [
+    {
+     "date": "2021-04-13",
+     "url": "images/dfo_2021-04-17_Wakeman_Snd_neg_prev_2021-04-13.jpg"
+    },
+    {
+     "date": "2021-04-16",
+     "url": "images/dfo_2021-04-17_Wakeman_Snd_neg_prev_2021-04-16.jpg"
+    }
+   ],
+   "ref": {
+    "date": "2021-03-17",
+    "days_before": 32,
+    "url": "images/dfo_2021-04-17_Wakeman_Snd_neg_ref_2021-03-17.jpg"
+   },
+   "det_url": "images/dfo_2021-04-17_Wakeman_Snd_neg_det_2021-04-18.jpg",
+   "overlay_url": "images/dfo_2021-04-17_Wakeman_Snd_neg_overlay_2021-04-18.jpg",
+   "ref_also_hot": false
+  }
+ ]
+}
