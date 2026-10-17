@@ -1,5 +1,7 @@
 # Temporal Labeller
 
+**Live:** <https://dexterfichuk.github.io/temporal-labeller/> · [example](https://dexterfichuk.github.io/temporal-labeller/?manifest=examples/herring-spawn/manifest.json)
+
 A small static web tool for labelling **remote-sensing events through time**. Each item shows a short image time
 series for one place: a reference from weeks earlier, the passes just before, the event date, and an optional
 overlay of an index or detection mask. A single image often can't tell an event from a permanent bright feature
