@@ -1,0 +1,6429 @@
+{
+ "name": "herring-patch-review-2026-10-17",
+ "title": "Herring spawn \u00b7 181 detector patches (Oct 2026)",
+ "task_name": "herring_spawn",
+ "question": "Is this a herring spawn?",
+ "classes": [
+  {
+   "value": "spawn",
+   "label": "Spawn",
+   "positive": true,
+   "color": "#0e8c87"
+  },
+  {
+   "value": "not",
+   "label": "Not spawn",
+   "positive": false,
+   "color": "#c2493d"
+  },
+  {
+   "value": "unsure",
+   "label": "Unsure",
+   "positive": null,
+   "color": "#b7791f"
+  }
+ ],
+ "items": [
+  {
+   "id": "p000_2023-02-23",
+   "prev": [],
+   "det_url": "images/p000_2023-02-23_det.jpg",
+   "overlay_url": "images/p000_2023-02-23_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-02-23",
+   "sensor": "S2",
+   "lat": 50.88032,
+   "lon": -128.02366,
+   "place": "Loic Bull Hrbr Landsat 7",
+   "area_m2": 8055100,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find",
+    "very large patch"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3713",
+    "Reference dates": "2023-02-20..2023-02-26",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20230223T194421_R042_T09UWS_20230225T193444"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p001_2023-02-23",
+   "prev": [],
+   "det_url": "images/p001_2023-02-23_det.jpg",
+   "overlay_url": "images/p001_2023-02-23_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-02-23",
+   "sensor": "S2",
+   "lat": 50.9323,
+   "lon": -127.98358,
+   "place": "Loic Hope Is Landsat 7",
+   "area_m2": 6374900,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find",
+    "very large patch"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3742",
+    "Reference dates": "2023-02-20..2023-02-26",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20230223T194421_R042_T09UWS_20230225T193444"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p002_2020-03-09",
+   "ref": {
+    "date": "2020-02-08",
+    "days_before": 30,
+    "url": "images/p002_2020-03-09_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2020-03-04",
+     "url": "images/p002_2020-03-09_prev_2020-03-04.jpg"
+    }
+   ],
+   "det_url": "images/p002_2020-03-09_det.jpg",
+   "overlay_url": "images/p002_2020-03-09_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-09",
+   "sensor": "S2",
+   "lat": 49.60661,
+   "lon": -124.81747,
+   "place": "Loic Henry Bay Sentinel-2",
+   "area_m2": 2370600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find",
+    "very large patch"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3682",
+    "Reference dates": "2020-03-06..2020-03-12",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "S2B_MSIL2A_20200309T192219_R099_T10UCV_20201002T153300"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p003_2018-03-30",
+   "ref": {
+    "date": "2018-03-03",
+    "days_before": 27,
+    "url": "images/p003_2018-03-30_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-15",
+     "url": "images/p003_2018-03-30_prev_2018-03-15.jpg"
+    },
+    {
+     "date": "2018-03-18",
+     "url": "images/p003_2018-03-30_prev_2018-03-18.jpg"
+    }
+   ],
+   "det_url": "images/p003_2018-03-30_det.jpg",
+   "overlay_url": "images/p003_2018-03-30_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-30",
+   "sensor": "S2",
+   "lat": 51.09001,
+   "lon": -125.6022,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 1876800,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 257,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.09,
+    "Scene": "S2B_MSIL2A_20180330T191959_R099_T10UCB_20201013T165420"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p004_2018-03-16",
+   "ref": {
+    "date": "2018-02-12",
+    "days_before": 32,
+    "url": "images/p004_2018-03-16_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p004_2018-03-16_det.jpg",
+   "overlay_url": "images/p004_2018-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-16",
+   "sensor": "L89",
+   "lat": 49.41426,
+   "lon": -126.45759,
+   "place": "DFO Antons Spit spawn 1",
+   "area_m2": 1646100,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Antons Spit spawn 1",
+   "fields": {
+    "Distance from reference (m)": 129,
+    "Source record": "1603-2018-1",
+    "Reference dates": "2018-03-13..2018-03-25",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049026_20180316_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p005_2018-02-16",
+   "prev": [
+    {
+     "date": "2018-02-08",
+     "url": "images/p005_2018-02-16_prev_2018-02-08.jpg"
+    },
+    {
+     "date": "2018-02-11",
+     "url": "images/p005_2018-02-16_prev_2018-02-11.jpg"
+    }
+   ],
+   "det_url": "images/p005_2018-02-16_det.jpg",
+   "overlay_url": "images/p005_2018-02-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-16",
+   "sensor": "S2",
+   "lat": 51.08559,
+   "lon": -125.6208,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 1547500,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 47,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180216T193501_R142_T10UCB_20201013T215533"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p006_2023-03-04",
+   "prev": [],
+   "det_url": "images/p006_2023-03-04_det.jpg",
+   "overlay_url": "images/p006_2023-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-03-04",
+   "sensor": "L89",
+   "lat": 50.94434,
+   "lon": -127.89264,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 1490400,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3769",
+    "Reference dates": "2023-02-27..2023-03-05",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_051024_20230304_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p007_2019-02-16",
+   "ref": {
+    "date": "2019-01-07",
+    "days_before": 40,
+    "url": "images/p007_2019-02-16_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-02-04",
+     "url": "images/p007_2019-02-16_prev_2019-02-04.jpg"
+    }
+   ],
+   "det_url": "images/p007_2019-02-16_det.jpg",
+   "overlay_url": "images/p007_2019-02-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-02-16",
+   "sensor": "S2",
+   "lat": 50.92988,
+   "lon": -127.93902,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 1393200,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3763",
+    "Reference dates": "2019-02-13..2019-02-19",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "S2B_MSIL2A_20190216T193459_R142_T09UWS_20201007T173437"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p008_2017-02-21",
+   "ref": {
+    "date": "2017-01-12",
+    "days_before": 40,
+    "url": "images/p008_2017-02-21_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p008_2017-02-21_det.jpg",
+   "overlay_url": "images/p008_2017-02-21_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-02-21",
+   "sensor": "S2",
+   "lat": 51.08873,
+   "lon": -125.62397,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 1224600,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2017 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 525,
+    "Source record": "1730",
+    "Reference dates": "2017-02-01..2017-04-30",
+    "Overlap with month-earlier brightness": 0.03,
+    "Scene": "S2A_MSIL2A_20170221T193421_R142_T10UCB_20210208T153646"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p009_2021-03-10",
+   "ref": {
+    "date": "2021-02-08",
+    "days_before": 30,
+    "url": "images/p009_2021-03-10_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2021-02-23",
+     "url": "images/p009_2021-03-10_prev_2021-02-23.jpg"
+    }
+   ],
+   "det_url": "images/p009_2021-03-10_det.jpg",
+   "overlay_url": "images/p009_2021-03-10_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-10",
+   "sensor": "S2",
+   "lat": 50.9296,
+   "lon": -127.93362,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 1207900,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 43,
+    "Source record": "3767",
+    "Reference dates": "2021-03-04..2021-03-10",
+    "Overlap with month-earlier brightness": 0.33,
+    "Scene": "S2B_MSIL2A_20210310T194229_R042_T09UWS_20210311T051554"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p010_2018-04-27",
+   "ref": {
+    "date": "2018-03-15",
+    "days_before": 43,
+    "url": "images/p010_2018-04-27_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-22",
+     "url": "images/p010_2018-04-27_prev_2018-04-22.jpg"
+    },
+    {
+     "date": "2018-04-24",
+     "url": "images/p010_2018-04-27_prev_2018-04-24.jpg"
+    }
+   ],
+   "det_url": "images/p010_2018-04-27_det.jpg",
+   "overlay_url": "images/p010_2018-04-27_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-27",
+   "sensor": "S2",
+   "lat": 51.02931,
+   "lon": -125.56054,
+   "place": "DFO site Rubble Pt",
+   "area_m2": 1136800,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Rubble Pt",
+   "fields": {
+    "Distance from reference (m)": 791,
+    "Source record": "1610",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180427T192911_R142_T10UCB_20201013T032035"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p011_2017-03-30",
+   "ref": {
+    "date": "2017-02-21",
+    "days_before": 37,
+    "url": "images/p011_2017-03-30_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p011_2017-03-30_det.jpg",
+   "overlay_url": "images/p011_2017-03-30_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-30",
+   "sensor": "S2",
+   "lat": 51.08615,
+   "lon": -125.62319,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 1136200,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2017 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 106,
+    "Source record": "1730",
+    "Reference dates": "2017-02-01..2017-04-30",
+    "Overlap with month-earlier brightness": 0.48,
+    "Scene": "S2A_MSIL2A_20170330T191951_R099_T10UCB_20210209T031205"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p012_2018-02-11",
+   "ref": {
+    "date": "2017-12-30",
+    "days_before": 43,
+    "url": "images/p012_2018-02-11_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-02-08",
+     "url": "images/p012_2018-02-11_prev_2018-02-08.jpg"
+    }
+   ],
+   "det_url": "images/p012_2018-02-11_det.jpg",
+   "overlay_url": "images/p012_2018-02-11_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-11",
+   "sensor": "S2",
+   "lat": 51.03108,
+   "lon": -125.58647,
+   "place": "DFO site Hatchet Pt",
+   "area_m2": 1108700,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Hatchet Pt",
+   "fields": {
+    "Distance from reference (m)": 205,
+    "Source record": "1826",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.13,
+    "Scene": "S2B_MSIL2A_20180211T193529_R142_T10UCB_20201026T034434"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p013_2018-03-03",
+   "ref": {
+    "date": "2018-02-11",
+    "days_before": 20,
+    "url": "images/p013_2018-03-03_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-02-18",
+     "url": "images/p013_2018-03-03_prev_2018-02-18.jpg"
+    },
+    {
+     "date": "2018-02-26",
+     "url": "images/p013_2018-03-03_prev_2018-02-26.jpg"
+    }
+   ],
+   "det_url": "images/p013_2018-03-03_det.jpg",
+   "overlay_url": "images/p013_2018-03-03_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-03",
+   "sensor": "S2",
+   "lat": 51.09315,
+   "lon": -125.62651,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 1108600,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 25,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.26,
+    "Scene": "S2B_MSIL2A_20180303T193309_R142_T10UCB_20201013T061247"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p014_2018-04-02",
+   "ref": {
+    "date": "2018-03-03",
+    "days_before": 30,
+    "url": "images/p014_2018-04-02_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-18",
+     "url": "images/p014_2018-04-02_prev_2018-03-18.jpg"
+    },
+    {
+     "date": "2018-03-30",
+     "url": "images/p014_2018-04-02_prev_2018-03-30.jpg"
+    }
+   ],
+   "det_url": "images/p014_2018-04-02_det.jpg",
+   "overlay_url": "images/p014_2018-04-02_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-02",
+   "sensor": "S2",
+   "lat": 51.08961,
+   "lon": -125.60274,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 1107000,
+   "status": "persistent",
+   "tags": [
+    "Salmon Coast 2018 sweep",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 65,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.52,
+    "Scene": "S2B_MSIL2A_20180402T192939_R142_T10UCB_20201012T173651"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p015_2019-02-04",
+   "ref": {
+    "date": "2019-01-07",
+    "days_before": 28,
+    "url": "images/p015_2019-02-04_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-01-20",
+     "url": "images/p015_2019-02-04_prev_2019-01-20.jpg"
+    }
+   ],
+   "det_url": "images/p015_2019-02-04_det.jpg",
+   "overlay_url": "images/p015_2019-02-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-02-04",
+   "sensor": "S2",
+   "lat": 50.93211,
+   "lon": -127.93029,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 1104600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3762",
+    "Reference dates": "2019-02-01..2019-02-07",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "S2A_MSIL2A_20190204T194621_R042_T09UWS_20201007T135517"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p016_2018-04-27",
+   "ref": {
+    "date": "2018-03-15",
+    "days_before": 43,
+    "url": "images/p016_2018-04-27_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-22",
+     "url": "images/p016_2018-04-27_prev_2018-04-22.jpg"
+    },
+    {
+     "date": "2018-04-24",
+     "url": "images/p016_2018-04-27_prev_2018-04-24.jpg"
+    }
+   ],
+   "det_url": "images/p016_2018-04-27_det.jpg",
+   "overlay_url": "images/p016_2018-04-27_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-27",
+   "sensor": "S2",
+   "lat": 51.0323,
+   "lon": -125.58753,
+   "place": "DFO site Hatchet Pt",
+   "area_m2": 1090600,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Hatchet Pt",
+   "fields": {
+    "Distance from reference (m)": 513,
+    "Source record": "1826",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180427T192911_R142_T10UCB_20201013T032035"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p017_2024-03-17",
+   "ref": {
+    "date": "2024-02-06",
+    "days_before": 40,
+    "url": "images/p017_2024-03-17_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-16",
+     "url": "images/p017_2024-03-17_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p017_2024-03-17_det.jpg",
+   "overlay_url": "images/p017_2024-03-17_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-17",
+   "sensor": "L89",
+   "lat": 49.5275,
+   "lon": -124.73626,
+   "place": "Loic Denman Is E Landsat 9",
+   "area_m2": 1046700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3677",
+    "Reference dates": "2024-03-14..2024-03-20",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_048025_20240317_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p018_2023-03-02",
+   "prev": [
+    {
+     "date": "2023-02-23",
+     "url": "images/p018_2023-03-02_prev_2023-02-23.jpg"
+    }
+   ],
+   "det_url": "images/p018_2023-03-02_det.jpg",
+   "overlay_url": "images/p018_2023-03-02_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-03-02",
+   "sensor": "S2",
+   "lat": 50.94056,
+   "lon": -127.90803,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 1040500,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3769",
+    "Reference dates": "2023-02-27..2023-03-05",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20230302T193321_R142_T09UWS_20240818T022527"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p019_2020-03-09",
+   "ref": {
+    "date": "2020-02-08",
+    "days_before": 30,
+    "url": "images/p019_2020-03-09_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2020-03-04",
+     "url": "images/p019_2020-03-09_prev_2020-03-04.jpg"
+    }
+   ],
+   "det_url": "images/p019_2020-03-09_det.jpg",
+   "overlay_url": "images/p019_2020-03-09_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-09",
+   "sensor": "S2",
+   "lat": 50.01143,
+   "lon": -125.00904,
+   "place": "Loic Sutil Pt Sentinel-2",
+   "area_m2": 910000,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3695",
+    "Reference dates": "2020-03-06..2020-03-12",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20200309T192219_R099_T10UCA_20201002T153240"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p020_2023-03-04",
+   "prev": [],
+   "det_url": "images/p020_2023-03-04_det.jpg",
+   "overlay_url": "images/p020_2023-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-03-04",
+   "sensor": "L89",
+   "lat": 50.86575,
+   "lon": -128.00762,
+   "place": "Loic Bull Hrbr Landsat 9",
+   "area_m2": 869400,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3724",
+    "Reference dates": "2023-03-01..2023-03-07",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_051024_20230304_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p021_2020-03-16",
+   "ref": {
+    "date": "2020-02-20",
+    "days_before": 25,
+    "url": "images/p021_2020-03-16_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2020-03-06",
+     "url": "images/p021_2020-03-16_prev_2020-03-06.jpg"
+    },
+    {
+     "date": "2020-03-11",
+     "url": "images/p021_2020-03-16_prev_2020-03-11.jpg"
+    }
+   ],
+   "det_url": "images/p021_2020-03-16_det.jpg",
+   "overlay_url": "images/p021_2020-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-16",
+   "sensor": "S2",
+   "lat": 49.04231,
+   "lon": -122.89449,
+   "place": "Loic Crescent Beach Sentinel-2",
+   "area_m2": 838300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3613",
+    "Reference dates": "2020-03-13..2020-03-19",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20200316T191029_R056_T10UEV_20201010T092632"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p022_2018-04-01",
+   "ref": {
+    "date": "2018-03-07",
+    "days_before": 25,
+    "url": "images/p022_2018-04-01_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-16",
+     "url": "images/p022_2018-04-01_prev_2018-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p022_2018-04-01_det.jpg",
+   "overlay_url": "images/p022_2018-04-01_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-01",
+   "sensor": "L89",
+   "lat": 51.03159,
+   "lon": -125.586,
+   "place": "DFO site Hatchet Pt",
+   "area_m2": 823500,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Hatchet Pt",
+   "fields": {
+    "Distance from reference (m)": 258,
+    "Source record": "1826",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049025_20180401_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p023_2024-03-16",
+   "ref": {
+    "date": "2024-02-05",
+    "days_before": 40,
+    "url": "images/p023_2024-03-16_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p023_2024-03-16_det.jpg",
+   "overlay_url": "images/p023_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "L89",
+   "lat": 49.44552,
+   "lon": -124.67861,
+   "place": "Loic Chrome Is Sentinel-2",
+   "area_m2": 819900,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 106,
+    "Source record": "3656",
+    "Reference dates": "2024-03-12..2024-03-18",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049025_20240316_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p024_2024-03-16",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 30,
+    "url": "images/p024_2024-03-16_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-04",
+     "url": "images/p024_2024-03-16_prev_2024-03-04.jpg"
+    }
+   ],
+   "det_url": "images/p024_2024-03-16_det.jpg",
+   "overlay_url": "images/p024_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "S2",
+   "lat": 50.93404,
+   "lon": -127.92609,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 816600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3771",
+    "Reference dates": "2024-03-13..2024-03-19",
+    "Overlap with month-earlier brightness": 0.05,
+    "Scene": "S2A_MSIL2A_20240316T193141_R142_T09UWS_20240317T022533"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p025_2021-03-09",
+   "ref": {
+    "date": "2021-01-23",
+    "days_before": 45,
+    "url": "images/p025_2021-03-09_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2021-02-25",
+     "url": "images/p025_2021-03-09_prev_2021-02-25.jpg"
+    }
+   ],
+   "det_url": "images/p025_2021-03-09_det.jpg",
+   "overlay_url": "images/p025_2021-03-09_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-09",
+   "sensor": "S2",
+   "lat": 50.92236,
+   "lon": -124.81695,
+   "place": "DFO Bute Inlt Hd spawn 2",
+   "area_m2": 799000,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Bute Inlt Hd spawn 2",
+   "fields": {
+    "Distance from reference (m)": 35,
+    "Source record": "785-2021-2",
+    "Reference dates": "2021-03-08..2021-03-18",
+    "Overlap with month-earlier brightness": 0.36,
+    "Scene": "S2A_MSIL2A_20210309T192231_R099_T10UCB_20210310T085134"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p026_2018-02-18",
+   "prev": [
+    {
+     "date": "2018-02-08",
+     "url": "images/p026_2018-02-18_prev_2018-02-08.jpg"
+    },
+    {
+     "date": "2018-02-11",
+     "url": "images/p026_2018-02-18_prev_2018-02-11.jpg"
+    }
+   ],
+   "det_url": "images/p026_2018-02-18_det.jpg",
+   "overlay_url": "images/p026_2018-02-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-18",
+   "sensor": "S2",
+   "lat": 51.08394,
+   "lon": -125.60408,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 797100,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 240,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20180218T192439_R099_T10UCB_20201013T225551"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p027_2024-03-16",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 33,
+    "url": "images/p027_2024-03-16_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-15",
+     "url": "images/p027_2024-03-16_prev_2024-03-15.jpg"
+    }
+   ],
+   "det_url": "images/p027_2024-03-16_det.jpg",
+   "overlay_url": "images/p027_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "L89",
+   "lat": 49.40924,
+   "lon": -126.45723,
+   "place": "DFO Antons Spit spawn 1",
+   "area_m2": 788400,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Antons Spit spawn 1",
+   "fields": {
+    "Distance from reference (m)": 463,
+    "Source record": "1603-2024-1",
+    "Reference dates": "2024-03-12..2024-03-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049026_20240316_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p028_2024-03-18",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 35,
+    "url": "images/p028_2024-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-06",
+     "url": "images/p028_2024-03-18_prev_2024-03-06.jpg"
+    },
+    {
+     "date": "2024-03-16",
+     "url": "images/p028_2024-03-18_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p028_2024-03-18_det.jpg",
+   "overlay_url": "images/p028_2024-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-18",
+   "sensor": "S2",
+   "lat": 49.40706,
+   "lon": -126.40599,
+   "place": "DFO Hesquiat Pt spawn 1",
+   "area_m2": 783300,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Hesquiat Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 121,
+    "Source record": "1788-2024-1",
+    "Reference dates": "2024-03-12..2024-03-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240318T192019_R099_T09UXQ_20240319T010444"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p029_2018-04-25",
+   "ref": {
+    "date": "2018-03-16",
+    "days_before": 40,
+    "url": "images/p029_2018-04-25_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-15",
+     "url": "images/p029_2018-04-25_prev_2018-04-15.jpg"
+    },
+    {
+     "date": "2018-04-22",
+     "url": "images/p029_2018-04-25_prev_2018-04-22.jpg"
+    }
+   ],
+   "det_url": "images/p029_2018-04-25_det.jpg",
+   "overlay_url": "images/p029_2018-04-25_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-25",
+   "sensor": "S2",
+   "lat": 50.92795,
+   "lon": -127.93622,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 764100,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3745",
+    "Reference dates": "2018-04-21..2018-04-27",
+    "Overlap with month-earlier brightness": 0.26,
+    "Scene": "S2B_MSIL2A_20180425T193859_R042_T09UWS_20201013T024300"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p030_2024-03-18",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 35,
+    "url": "images/p030_2024-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-06",
+     "url": "images/p030_2024-03-18_prev_2024-03-06.jpg"
+    },
+    {
+     "date": "2024-03-16",
+     "url": "images/p030_2024-03-18_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p030_2024-03-18_det.jpg",
+   "overlay_url": "images/p030_2024-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-18",
+   "sensor": "S2",
+   "lat": 49.40915,
+   "lon": -126.45897,
+   "place": "DFO Antons Spit spawn 1",
+   "area_m2": 675600,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Antons Spit spawn 1",
+   "fields": {
+    "Distance from reference (m)": 502,
+    "Source record": "1603-2024-1",
+    "Reference dates": "2024-03-12..2024-03-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240318T192019_R099_T09UXQ_20240319T010444"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p031_2019-03-23",
+   "ref": {
+    "date": "2019-02-24",
+    "days_before": 27,
+    "url": "images/p031_2019-03-23_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-18",
+     "url": "images/p031_2019-03-23_prev_2019-03-18.jpg"
+    },
+    {
+     "date": "2019-03-21",
+     "url": "images/p031_2019-03-23_prev_2019-03-21.jpg"
+    }
+   ],
+   "det_url": "images/p031_2019-03-23_det.jpg",
+   "overlay_url": "images/p031_2019-03-23_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-23",
+   "sensor": "S2",
+   "lat": 50.94128,
+   "lon": -127.90901,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 604400,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3765",
+    "Reference dates": "2019-03-20..2019-03-26",
+    "Overlap with month-earlier brightness": 0.05,
+    "Scene": "S2A_MSIL2A_20190323T193051_R142_T09UWS_20201007T094425"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p032_2018-04-27",
+   "ref": {
+    "date": "2018-03-15",
+    "days_before": 43,
+    "url": "images/p032_2018-04-27_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-22",
+     "url": "images/p032_2018-04-27_prev_2018-04-22.jpg"
+    },
+    {
+     "date": "2018-04-24",
+     "url": "images/p032_2018-04-27_prev_2018-04-24.jpg"
+    }
+   ],
+   "det_url": "images/p032_2018-04-27_det.jpg",
+   "overlay_url": "images/p032_2018-04-27_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-27",
+   "sensor": "S2",
+   "lat": 50.96154,
+   "lon": -125.54737,
+   "place": "DFO site Axe Pt",
+   "area_m2": 595600,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Axe Pt",
+   "fields": {
+    "Distance from reference (m)": 175,
+    "Source record": "1611",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180427T192911_R142_T10UCB_20201013T032035"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p033_2022-02-20",
+   "ref": {
+    "date": "2022-01-31",
+    "days_before": 20,
+    "url": "images/p033_2022-02-20_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p033_2022-02-20_det.jpg",
+   "overlay_url": "images/p033_2022-02-20_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-02-20",
+   "sensor": "S2",
+   "lat": 50.93153,
+   "lon": -127.93699,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 580400,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 25,
+    "Source record": "3754",
+    "Reference dates": "2022-02-18..2022-02-24",
+    "Overlap with month-earlier brightness": 0.25,
+    "Scene": "S2B_MSIL2A_20220220T193429_R142_T09UWS_20240518T045645"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p034_2024-04-30",
+   "ref": {
+    "date": "2024-03-16",
+    "days_before": 45,
+    "url": "images/p034_2024-04-30_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-04-15",
+     "url": "images/p034_2024-04-30_prev_2024-04-15.jpg"
+    },
+    {
+     "date": "2024-04-18",
+     "url": "images/p034_2024-04-30_prev_2024-04-18.jpg"
+    }
+   ],
+   "det_url": "images/p034_2024-04-30_det.jpg",
+   "overlay_url": "images/p034_2024-04-30_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-04-30",
+   "sensor": "S2",
+   "lat": 50.92538,
+   "lon": -127.94118,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 555100,
+   "status": "persistent",
+   "tags": [
+    "Loic satellite find",
+    "bright a month earlier too"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3774",
+    "Reference dates": "2024-04-27..2024-05-03",
+    "Overlap with month-earlier brightness": 0.78,
+    "Scene": "S2B_MSIL2A_20240430T192909_R142_T09UWS_20240430T234502"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p035_2021-03-22",
+   "prev": [
+    {
+     "date": "2021-03-15",
+     "url": "images/p035_2021-03-22_prev_2021-03-15.jpg"
+    }
+   ],
+   "det_url": "images/p035_2021-03-22_det.jpg",
+   "overlay_url": "images/p035_2021-03-22_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-22",
+   "sensor": "L89",
+   "lat": 50.92899,
+   "lon": -127.93712,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 553500,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3757",
+    "Reference dates": "2021-03-19..2021-03-25",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051025_20210322_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p036_2018-02-12",
+   "prev": [],
+   "det_url": "images/p036_2018-02-12_det.jpg",
+   "overlay_url": "images/p036_2018-02-12_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-12",
+   "sensor": "L89",
+   "lat": 51.0339,
+   "lon": -125.58698,
+   "place": "DFO site Hatchet Pt",
+   "area_m2": 537300,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Hatchet Pt",
+   "fields": {
+    "Distance from reference (m)": 424,
+    "Source record": "1826",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049024_20180212_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p037_2018-02-11",
+   "ref": {
+    "date": "2017-12-30",
+    "days_before": 43,
+    "url": "images/p037_2018-02-11_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-02-08",
+     "url": "images/p037_2018-02-11_prev_2018-02-08.jpg"
+    }
+   ],
+   "det_url": "images/p037_2018-02-11_det.jpg",
+   "overlay_url": "images/p037_2018-02-11_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-11",
+   "sensor": "S2",
+   "lat": 51.09615,
+   "lon": -125.62332,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 496900,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 15,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.35,
+    "Scene": "S2B_MSIL2A_20180211T193529_R142_T10UCB_20201026T034434"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p038_2021-03-07",
+   "ref": {
+    "date": "2021-02-08",
+    "days_before": 27,
+    "url": "images/p038_2021-03-07_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2021-02-23",
+     "url": "images/p038_2021-03-07_prev_2021-02-23.jpg"
+    }
+   ],
+   "det_url": "images/p038_2021-03-07_det.jpg",
+   "overlay_url": "images/p038_2021-03-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-07",
+   "sensor": "S2",
+   "lat": 50.93062,
+   "lon": -127.93495,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 480600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3767",
+    "Reference dates": "2021-03-04..2021-03-10",
+    "Overlap with month-earlier brightness": 0.09,
+    "Scene": "S2B_MSIL2A_20210307T193249_R142_T09UWS_20210308T061559"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p039_2017-03-20",
+   "prev": [],
+   "det_url": "images/p039_2017-03-20_det.jpg",
+   "overlay_url": "images/p039_2017-03-20_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-20",
+   "sensor": "L89",
+   "lat": 49.41646,
+   "lon": -126.40853,
+   "place": "DFO Hesquiat Pt spawn 1",
+   "area_m2": 476100,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Hesquiat Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 135,
+    "Source record": "1788-2017-1",
+    "Reference dates": "2017-03-18..2017-03-29",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050026_20170320_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p040_2024-03-15",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 32,
+    "url": "images/p040_2024-03-15_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-05",
+     "url": "images/p040_2024-03-15_prev_2024-03-05.jpg"
+    }
+   ],
+   "det_url": "images/p040_2024-03-15_det.jpg",
+   "overlay_url": "images/p040_2024-03-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-15",
+   "sensor": "S2",
+   "lat": 49.45218,
+   "lon": -124.69502,
+   "place": "Loic Chrome Is Sentinel-2",
+   "area_m2": 472600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 135,
+    "Source record": "3656",
+    "Reference dates": "2024-03-12..2024-03-18",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "S2B_MSIL2A_20240315T191039_R056_T10UCV_20240315T234112"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p041_2020-03-11",
+   "ref": {
+    "date": "2020-02-20",
+    "days_before": 20,
+    "url": "images/p041_2020-03-11_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2020-03-06",
+     "url": "images/p041_2020-03-11_prev_2020-03-06.jpg"
+    },
+    {
+     "date": "2020-03-09",
+     "url": "images/p041_2020-03-11_prev_2020-03-09.jpg"
+    }
+   ],
+   "det_url": "images/p041_2020-03-11_det.jpg",
+   "overlay_url": "images/p041_2020-03-11_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-11",
+   "sensor": "S2",
+   "lat": 49.35763,
+   "lon": -124.44479,
+   "place": "Loic Qualicum Beach Sentinel-2",
+   "area_m2": 456200,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3628",
+    "Reference dates": "2020-03-08..2020-03-14",
+    "Overlap with month-earlier brightness": 0.08,
+    "Scene": "S2A_MSIL2A_20200311T191201_R056_T10UCV_20201027T095459"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p042_2024-03-16",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 33,
+    "url": "images/p042_2024-03-16_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-15",
+     "url": "images/p042_2024-03-16_prev_2024-03-15.jpg"
+    }
+   ],
+   "det_url": "images/p042_2024-03-16_det.jpg",
+   "overlay_url": "images/p042_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "L89",
+   "lat": 49.42031,
+   "lon": -126.40997,
+   "place": "DFO Hesquiat Pt spawn 1",
+   "area_m2": 455400,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Hesquiat Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 129,
+    "Source record": "1788-2024-1",
+    "Reference dates": "2024-03-12..2024-03-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049026_20240316_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p043_2024-03-21",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 35,
+    "url": "images/p043_2024-03-21_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-04",
+     "url": "images/p043_2024-03-21_prev_2024-03-04.jpg"
+    },
+    {
+     "date": "2024-03-16",
+     "url": "images/p043_2024-03-21_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p043_2024-03-21_det.jpg",
+   "overlay_url": "images/p043_2024-03-21_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-21",
+   "sensor": "S2",
+   "lat": 50.87346,
+   "lon": -127.96216,
+   "place": "Loic Bull Hrbr Sentinel-2",
+   "area_m2": 428700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3729",
+    "Reference dates": "2024-03-18..2024-03-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240321T193009_R142_T09UWS_20240322T011938"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p044_2019-03-18",
+   "ref": {
+    "date": "2019-02-24",
+    "days_before": 22,
+    "url": "images/p044_2019-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-03",
+     "url": "images/p044_2019-03-18_prev_2019-03-03.jpg"
+    },
+    {
+     "date": "2019-03-08",
+     "url": "images/p044_2019-03-18_prev_2019-03-08.jpg"
+    }
+   ],
+   "det_url": "images/p044_2019-03-18_det.jpg",
+   "overlay_url": "images/p044_2019-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-18",
+   "sensor": "S2",
+   "lat": 50.9305,
+   "lon": -127.9289,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 421700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 95,
+    "Source record": "3753",
+    "Reference dates": "2019-03-14..2019-03-20",
+    "Overlap with month-earlier brightness": 0.19,
+    "Scene": "S2B_MSIL2A_20190318T193129_R142_T09UWS_20201007T080405"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p045_2023-03-04",
+   "prev": [],
+   "det_url": "images/p045_2023-03-04_det.jpg",
+   "overlay_url": "images/p045_2023-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-03-04",
+   "sensor": "L89",
+   "lat": 50.92519,
+   "lon": -127.94211,
+   "place": "Loic Hope Is Landsat 9",
+   "area_m2": 405900,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3760",
+    "Reference dates": "2023-03-01..2023-03-07",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_051024_20230304_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p046_2018-02-26",
+   "prev": [
+    {
+     "date": "2018-02-11",
+     "url": "images/p046_2018-02-26_prev_2018-02-11.jpg"
+    },
+    {
+     "date": "2018-02-18",
+     "url": "images/p046_2018-02-26_prev_2018-02-18.jpg"
+    }
+   ],
+   "det_url": "images/p046_2018-02-26_det.jpg",
+   "overlay_url": "images/p046_2018-02-26_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-26",
+   "sensor": "S2",
+   "lat": 51.09615,
+   "lon": -125.62325,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 403500,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 757,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180226T193351_R142_T10UCB_20201104T145509"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p047_2018-03-18",
+   "ref": {
+    "date": "2018-02-11",
+    "days_before": 35,
+    "url": "images/p047_2018-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-03",
+     "url": "images/p047_2018-03-18_prev_2018-03-03.jpg"
+    },
+    {
+     "date": "2018-03-15",
+     "url": "images/p047_2018-03-18_prev_2018-03-15.jpg"
+    }
+   ],
+   "det_url": "images/p047_2018-03-18_det.jpg",
+   "overlay_url": "images/p047_2018-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-18",
+   "sensor": "S2",
+   "lat": 51.09708,
+   "lon": -125.62152,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 380900,
+   "status": "persistent",
+   "tags": [
+    "Salmon Coast 2018 sweep",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 757,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.5,
+    "Scene": "S2A_MSIL2A_20180318T193121_R142_T10UCB_20201013T104334"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p048_2024-03-06",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 20,
+    "url": "images/p048_2024-03-06_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-04",
+     "url": "images/p048_2024-03-06_prev_2024-03-04.jpg"
+    }
+   ],
+   "det_url": "images/p048_2024-03-06_det.jpg",
+   "overlay_url": "images/p048_2024-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-06",
+   "sensor": "S2",
+   "lat": 50.33344,
+   "lon": -127.87659,
+   "place": "DFO Side Bay spawn 1",
+   "area_m2": 378300,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Side Bay spawn 1",
+   "fields": {
+    "Distance from reference (m)": 407,
+    "Source record": "1562-2024-1",
+    "Reference dates": "2024-03-03..2024-03-13",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "S2A_MSIL2A_20240306T193251_R142_T09UWR_20240307T005654"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p049_2024-03-16",
+   "ref": {
+    "date": "2024-02-14",
+    "days_before": 31,
+    "url": "images/p049_2024-03-16_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p049_2024-03-16_det.jpg",
+   "overlay_url": "images/p049_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "L89",
+   "lat": 49.5227,
+   "lon": -124.74321,
+   "place": "Loic Denman Is E Landsat 8",
+   "area_m2": 378000,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3676",
+    "Reference dates": "2024-03-13..2024-03-19",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049025_20240316_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p050_2018-03-15",
+   "ref": {
+    "date": "2018-02-11",
+    "days_before": 32,
+    "url": "images/p050_2018-03-15_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-02-26",
+     "url": "images/p050_2018-03-15_prev_2018-02-26.jpg"
+    },
+    {
+     "date": "2018-03-03",
+     "url": "images/p050_2018-03-15_prev_2018-03-03.jpg"
+    }
+   ],
+   "det_url": "images/p050_2018-03-15_det.jpg",
+   "overlay_url": "images/p050_2018-03-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-15",
+   "sensor": "S2",
+   "lat": 51.08318,
+   "lon": -125.61709,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 374900,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 576,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.41,
+    "Scene": "S2A_MSIL2A_20180315T192141_R099_T10UCB_20201013T091944"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p051_2024-03-16",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 30,
+    "url": "images/p051_2024-03-16_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-04",
+     "url": "images/p051_2024-03-16_prev_2024-03-04.jpg"
+    }
+   ],
+   "det_url": "images/p051_2024-03-16_det.jpg",
+   "overlay_url": "images/p051_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "S2",
+   "lat": 50.86565,
+   "lon": -128.03732,
+   "place": "Loic Bull Hrbr Sentinel-2",
+   "area_m2": 331700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 73,
+    "Source record": "3728",
+    "Reference dates": "2024-03-13..2024-03-19",
+    "Overlap with month-earlier brightness": 0.07,
+    "Scene": "S2A_MSIL2A_20240316T193141_R142_T09UWS_20240317T022533"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p052_2023-03-12",
+   "ref": {
+    "date": "2023-02-05",
+    "days_before": 35,
+    "url": "images/p052_2023-03-12_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p052_2023-03-12_det.jpg",
+   "overlay_url": "images/p052_2023-03-12_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-03-12",
+   "sensor": "S2",
+   "lat": 49.41164,
+   "lon": -126.4165,
+   "place": "DFO Hesquiat Pt spawn 1",
+   "area_m2": 305400,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Hesquiat Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 301,
+    "Source record": "1788-2023-1",
+    "Reference dates": "2023-03-05..2023-03-22",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20230312T193211_R142_T09UXQ_20240804T095229"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p053_2023-04-01",
+   "ref": {
+    "date": "2023-02-23",
+    "days_before": 37,
+    "url": "images/p053_2023-04-01_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2023-03-25",
+     "url": "images/p053_2023-04-01_prev_2023-03-25.jpg"
+    },
+    {
+     "date": "2023-03-27",
+     "url": "images/p053_2023-04-01_prev_2023-03-27.jpg"
+    }
+   ],
+   "det_url": "images/p053_2023-04-01_det.jpg",
+   "overlay_url": "images/p053_2023-04-01_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-04-01",
+   "sensor": "S2",
+   "lat": 50.93243,
+   "lon": -127.92779,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 301400,
+   "status": "persistent",
+   "tags": [
+    "Loic satellite find",
+    "bright a month earlier too"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3770",
+    "Reference dates": "2023-03-29..2023-04-04",
+    "Overlap with month-earlier brightness": 0.96,
+    "Scene": "S2A_MSIL2A_20230401T192941_R142_T09UWS_20240809T092323"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p054_2022-03-09",
+   "ref": {
+    "date": "2022-02-14",
+    "days_before": 23,
+    "url": "images/p054_2022-03-09_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-02-21",
+     "url": "images/p054_2022-03-09_prev_2022-02-21.jpg"
+    },
+    {
+     "date": "2022-02-22",
+     "url": "images/p054_2022-03-09_prev_2022-02-22.jpg"
+    }
+   ],
+   "det_url": "images/p054_2022-03-09_det.jpg",
+   "overlay_url": "images/p054_2022-03-09_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-03-09",
+   "sensor": "L89",
+   "lat": 50.48778,
+   "lon": -128.02175,
+   "place": "DFO Forward Inlt spawn 1",
+   "area_m2": 287100,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Forward Inlt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 583,
+    "Source record": "1319-2022-1",
+    "Reference dates": "2022-03-04..2022-03-14",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051025_20220309_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p055_2019-03-28",
+   "ref": {
+    "date": "2019-02-24",
+    "days_before": 32,
+    "url": "images/p055_2019-03-28_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-21",
+     "url": "images/p055_2019-03-28_prev_2019-03-21.jpg"
+    },
+    {
+     "date": "2019-03-23",
+     "url": "images/p055_2019-03-28_prev_2019-03-23.jpg"
+    }
+   ],
+   "det_url": "images/p055_2019-03-28_det.jpg",
+   "overlay_url": "images/p055_2019-03-28_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-28",
+   "sensor": "S2",
+   "lat": 50.93109,
+   "lon": -127.92832,
+   "place": "Loic Hope Is Landsat 7",
+   "area_m2": 285100,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 75,
+    "Source record": "3741",
+    "Reference dates": "2019-03-22..2019-03-28",
+    "Overlap with month-earlier brightness": 0.17,
+    "Scene": "S2B_MSIL2A_20190328T193019_R142_T09UWS_20201007T114828"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p056_2024-03-15",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 32,
+    "url": "images/p056_2024-03-15_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p056_2024-03-15_det.jpg",
+   "overlay_url": "images/p056_2024-03-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-15",
+   "sensor": "L89",
+   "lat": 49.41211,
+   "lon": -126.46065,
+   "place": "DFO Antons Spit spawn 1",
+   "area_m2": 274500,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Antons Spit spawn 1",
+   "fields": {
+    "Distance from reference (m)": 409,
+    "Source record": "1603-2024-1",
+    "Reference dates": "2024-03-12..2024-03-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_050025_20240315_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p057_2025-03-06",
+   "ref": {
+    "date": "2025-02-09",
+    "days_before": 25,
+    "url": "images/p057_2025-03-06_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p057_2025-03-06_det.jpg",
+   "overlay_url": "images/p057_2025-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-03-06",
+   "sensor": "S2",
+   "lat": 49.43974,
+   "lon": -126.42356,
+   "place": "DFO Rondeault Pt spawn 1",
+   "area_m2": 264400,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 363,
+    "Source record": "1604-2025-1",
+    "Reference dates": "2025-03-06..2025-03-19",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20250306T193159_R142_T09UXQ_20250306T214507"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p058_2024-03-18",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 35,
+    "url": "images/p058_2024-03-18_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p058_2024-03-18_det.jpg",
+   "overlay_url": "images/p058_2024-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-18",
+   "sensor": "S2",
+   "lat": 49.94783,
+   "lon": -124.81067,
+   "place": "DFO Savary Is spawn 1",
+   "area_m2": 263400,
+   "status": "persistent",
+   "tags": [
+    "DFO spawn 75-150 km out",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO Savary Is spawn 1",
+   "fields": {
+    "Distance from reference (m)": 648,
+    "Source record": "854-2024-1",
+    "Reference dates": "2024-03-10..2024-03-21",
+    "Overlap with month-earlier brightness": 0.58,
+    "Scene": "S2B_MSIL2A_20240318T192019_R099_T10UCA_20240319T010126"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p059_2022-03-04",
+   "ref": {
+    "date": "2022-01-31",
+    "days_before": 32,
+    "url": "images/p059_2022-03-04_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-02-23",
+     "url": "images/p059_2022-03-04_prev_2022-02-23.jpg"
+    },
+    {
+     "date": "2022-03-03",
+     "url": "images/p059_2022-03-04_prev_2022-03-03.jpg"
+    }
+   ],
+   "det_url": "images/p059_2022-03-04_det.jpg",
+   "overlay_url": "images/p059_2022-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-03-04",
+   "sensor": "L89",
+   "lat": 49.7624,
+   "lon": -124.95626,
+   "place": "Loic Seal Bay+ Landsat 8",
+   "area_m2": 262800,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3691",
+    "Reference dates": "2022-03-01..2022-03-07",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_048025_20220304_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p060_2019-03-01",
+   "prev": [
+    {
+     "date": "2019-02-13",
+     "url": "images/p060_2019-03-01_prev_2019-02-13.jpg"
+    }
+   ],
+   "det_url": "images/p060_2019-03-01_det.jpg",
+   "overlay_url": "images/p060_2019-03-01_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-01",
+   "sensor": "L89",
+   "lat": 50.87236,
+   "lon": -127.95638,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 260100,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3719",
+    "Reference dates": "2019-02-26..2019-03-04",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051024_20190301_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p061_2024-03-15",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 32,
+    "url": "images/p061_2024-03-15_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-05",
+     "url": "images/p061_2024-03-15_prev_2024-03-05.jpg"
+    }
+   ],
+   "det_url": "images/p061_2024-03-15_det.jpg",
+   "overlay_url": "images/p061_2024-03-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-15",
+   "sensor": "S2",
+   "lat": 49.33719,
+   "lon": -124.33021,
+   "place": "Loic Parksville Bay Sentinel-2",
+   "area_m2": 252300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3624",
+    "Reference dates": "2024-03-12..2024-03-18",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240315T191039_R056_T10UDV_20240315T234758"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p062_2019-03-31",
+   "ref": {
+    "date": "2019-02-24",
+    "days_before": 35,
+    "url": "images/p062_2019-03-31_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-23",
+     "url": "images/p062_2019-03-31_prev_2019-03-23.jpg"
+    },
+    {
+     "date": "2019-03-28",
+     "url": "images/p062_2019-03-31_prev_2019-03-28.jpg"
+    }
+   ],
+   "det_url": "images/p062_2019-03-31_det.jpg",
+   "overlay_url": "images/p062_2019-03-31_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-31",
+   "sensor": "S2",
+   "lat": 50.93092,
+   "lon": -127.92761,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 251700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 151,
+    "Source record": "3766",
+    "Reference dates": "2019-03-25..2019-03-31",
+    "Overlap with month-earlier brightness": 0.19,
+    "Scene": "S2B_MSIL2A_20190331T194009_R042_T09UWS_20201007T125730"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p063_2025-03-06",
+   "ref": {
+    "date": "2025-02-06",
+    "days_before": 28,
+    "url": "images/p063_2025-03-06_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p063_2025-03-06_det.jpg",
+   "overlay_url": "images/p063_2025-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-03-06",
+   "sensor": "S2",
+   "lat": 49.61339,
+   "lon": -126.81484,
+   "place": "DFO Bajo Pt spawn 1",
+   "area_m2": 219500,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Bajo Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 243,
+    "Source record": "1472-2025-1",
+    "Reference dates": "2025-03-03..2025-03-13",
+    "Overlap with month-earlier brightness": 0.06,
+    "Scene": "S2B_MSIL2A_20250306T193159_R142_T09UXR_20250306T214507"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p064_2017-03-30",
+   "ref": {
+    "date": "2017-02-21",
+    "days_before": 37,
+    "url": "images/p064_2017-03-30_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p064_2017-03-30_det.jpg",
+   "overlay_url": "images/p064_2017-03-30_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-30",
+   "sensor": "S2",
+   "lat": 51.02227,
+   "lon": -125.57393,
+   "place": "DFO site Hatchet Pt",
+   "area_m2": 217000,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2017 sweep"
+   ],
+   "dfo_match": "DFO site Hatchet Pt",
+   "fields": {
+    "Distance from reference (m)": 665,
+    "Source record": "1826",
+    "Reference dates": "2017-02-01..2017-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20170330T191951_R099_T10UCB_20210209T031205"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p065_2017-03-20",
+   "prev": [],
+   "det_url": "images/p065_2017-03-20_det.jpg",
+   "overlay_url": "images/p065_2017-03-20_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-20",
+   "sensor": "L89",
+   "lat": 49.44341,
+   "lon": -126.44565,
+   "place": "DFO Rondeault Pt spawn 3",
+   "area_m2": 216900,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 3",
+   "fields": {
+    "Distance from reference (m)": 87,
+    "Source record": "1604-2017-3",
+    "Reference dates": "2017-03-18..2017-03-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050026_20170320_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p066_2018-04-12",
+   "ref": {
+    "date": "2018-03-03",
+    "days_before": 40,
+    "url": "images/p066_2018-04-12_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p066_2018-04-12_det.jpg",
+   "overlay_url": "images/p066_2018-04-12_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-12",
+   "sensor": "S2",
+   "lat": 50.92852,
+   "lon": -127.93535,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 212000,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 646,
+    "Source record": "3752",
+    "Reference dates": "2018-04-12..2018-04-18",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20180412T192909_R142_T09UWS_20201026T071716"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p067_2025-03-06",
+   "ref": {
+    "date": "2025-02-09",
+    "days_before": 25,
+    "url": "images/p067_2025-03-06_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p067_2025-03-06_det.jpg",
+   "overlay_url": "images/p067_2025-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-03-06",
+   "sensor": "S2",
+   "lat": 49.42165,
+   "lon": -126.4086,
+   "place": "DFO Hesquiat Pt spawn 1",
+   "area_m2": 211100,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Hesquiat Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 302,
+    "Source record": "1788-2025-1",
+    "Reference dates": "2025-03-06..2025-03-20",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20250306T193159_R142_T09UXQ_20250306T214507"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p068_2019-03-21",
+   "ref": {
+    "date": "2019-02-17",
+    "days_before": 32,
+    "url": "images/p068_2019-03-21_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-12",
+     "url": "images/p068_2019-03-21_prev_2019-03-12.jpg"
+    }
+   ],
+   "det_url": "images/p068_2019-03-21_det.jpg",
+   "overlay_url": "images/p068_2019-03-21_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-21",
+   "sensor": "L89",
+   "lat": 48.99495,
+   "lon": -123.02242,
+   "place": "Loic Boundary Bay Rng Mrkr W Landsat 8",
+   "area_m2": 198000,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3605",
+    "Reference dates": "2019-03-18..2019-03-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_047026_20190321_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p069_2017-03-04",
+   "ref": {
+    "date": "2017-01-31",
+    "days_before": 32,
+    "url": "images/p069_2017-03-04_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2017-02-23",
+     "url": "images/p069_2017-03-04_prev_2017-02-23.jpg"
+    }
+   ],
+   "det_url": "images/p069_2017-03-04_det.jpg",
+   "overlay_url": "images/p069_2017-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-04",
+   "sensor": "L89",
+   "lat": 50.92585,
+   "lon": -127.94274,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 197100,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3744",
+    "Reference dates": "2017-03-01..2017-03-07",
+    "Overlap with month-earlier brightness": 0.02,
+    "Scene": "LC08_L2SP_050025_20170304_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p070_2018-04-24",
+   "ref": {
+    "date": "2018-03-30",
+    "days_before": 25,
+    "url": "images/p070_2018-04-24_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-15",
+     "url": "images/p070_2018-04-24_prev_2018-04-15.jpg"
+    }
+   ],
+   "det_url": "images/p070_2018-04-24_det.jpg",
+   "overlay_url": "images/p070_2018-04-24_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-24",
+   "sensor": "L89",
+   "lat": 50.86197,
+   "lon": -128.00078,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 192600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3715",
+    "Reference dates": "2018-04-21..2018-04-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20180424_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p071_2017-02-08",
+   "ref": {
+    "date": "2016-12-30",
+    "days_before": 40,
+    "url": "images/p071_2017-02-08_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2017-02-01",
+     "url": "images/p071_2017-02-08_prev_2017-02-01.jpg"
+    }
+   ],
+   "det_url": "images/p071_2017-02-08_det.jpg",
+   "overlay_url": "images/p071_2017-02-08_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-02-08",
+   "sensor": "S2",
+   "lat": 51.01318,
+   "lon": -125.58968,
+   "place": "DFO site Wahshihlas Bay",
+   "area_m2": 190400,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2017 sweep"
+   ],
+   "dfo_match": "DFO site Wahshihlas Bay",
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "1388",
+    "Reference dates": "2017-02-01..2017-04-30",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "S2A_MSIL2A_20170208T192541_R099_T10UCB_20210208T090040"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p072_2024-03-21",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 35,
+    "url": "images/p072_2024-03-21_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-04",
+     "url": "images/p072_2024-03-21_prev_2024-03-04.jpg"
+    },
+    {
+     "date": "2024-03-16",
+     "url": "images/p072_2024-03-21_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p072_2024-03-21_det.jpg",
+   "overlay_url": "images/p072_2024-03-21_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-21",
+   "sensor": "S2",
+   "lat": 50.92798,
+   "lon": -127.93266,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 188300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3748",
+    "Reference dates": "2024-03-20..2024-03-26",
+    "Overlap with month-earlier brightness": 0.08,
+    "Scene": "S2B_MSIL2A_20240321T193009_R142_T09UWS_20240322T011938"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p073_2024-03-24",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 38,
+    "url": "images/p073_2024-03-24_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-16",
+     "url": "images/p073_2024-03-24_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p073_2024-03-24_det.jpg",
+   "overlay_url": "images/p073_2024-03-24_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-24",
+   "sensor": "S2",
+   "lat": 50.93745,
+   "lon": -127.90988,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 187700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 488,
+    "Source record": "3772",
+    "Reference dates": "2024-03-18..2024-03-24",
+    "Overlap with month-earlier brightness": 0.1,
+    "Scene": "S2B_MSIL2A_20240324T193959_R042_T09UWS_20240324T235006"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p074_2025-03-18",
+   "ref": {
+    "date": "2025-02-06",
+    "days_before": 40,
+    "url": "images/p074_2025-03-18_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p074_2025-03-18_det.jpg",
+   "overlay_url": "images/p074_2025-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-03-18",
+   "sensor": "L89",
+   "lat": 49.42155,
+   "lon": -126.4066,
+   "place": "DFO Hesquiat Pt spawn 1",
+   "area_m2": 187200,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Hesquiat Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 255,
+    "Source record": "1788-2025-1",
+    "Reference dates": "2025-03-06..2025-03-20",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_050025_20250318_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p075_2020-03-17",
+   "prev": [
+    {
+     "date": "2020-03-07",
+     "url": "images/p075_2020-03-17_prev_2020-03-07.jpg"
+    },
+    {
+     "date": "2020-03-15",
+     "url": "images/p075_2020-03-17_prev_2020-03-15.jpg"
+    }
+   ],
+   "det_url": "images/p075_2020-03-17_det.jpg",
+   "overlay_url": "images/p075_2020-03-17_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-17",
+   "sensor": "S2",
+   "lat": 50.86631,
+   "lon": -128.03795,
+   "place": "Loic Bull Hrbr Sentinel-2",
+   "area_m2": 186000,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 79,
+    "Source record": "3726",
+    "Reference dates": "2020-03-12..2020-03-18",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20200317T193131_R142_T09UWS_20201010T105215"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p076_2024-03-18",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 35,
+    "url": "images/p076_2024-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-06",
+     "url": "images/p076_2024-03-18_prev_2024-03-06.jpg"
+    },
+    {
+     "date": "2024-03-16",
+     "url": "images/p076_2024-03-18_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p076_2024-03-18_det.jpg",
+   "overlay_url": "images/p076_2024-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-18",
+   "sensor": "S2",
+   "lat": 49.59468,
+   "lon": -126.61636,
+   "place": "DFO Santa Gertrudis Cv spawn 1",
+   "area_m2": 185700,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Santa Gertrudis Cv spawn 1",
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "1281-2024-1",
+    "Reference dates": "2024-03-13..2024-03-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240318T192019_R099_T09UXR_20240319T011528"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p077_2024-03-16",
+   "ref": {
+    "date": "2024-02-06",
+    "days_before": 39,
+    "url": "images/p077_2024-03-16_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p077_2024-03-16_det.jpg",
+   "overlay_url": "images/p077_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "L89",
+   "lat": 49.54539,
+   "lon": -124.75597,
+   "place": "Loic Fillongley Park Landsat 9",
+   "area_m2": 182700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 76,
+    "Source record": "3680",
+    "Reference dates": "2024-03-14..2024-03-20",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049025_20240316_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p078_2019-03-17",
+   "ref": {
+    "date": "2019-02-13",
+    "days_before": 32,
+    "url": "images/p078_2019-03-17_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-01",
+     "url": "images/p078_2019-03-17_prev_2019-03-01.jpg"
+    }
+   ],
+   "det_url": "images/p078_2019-03-17_det.jpg",
+   "overlay_url": "images/p078_2019-03-17_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-17",
+   "sensor": "L89",
+   "lat": 50.92893,
+   "lon": -127.93662,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 180900,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3753",
+    "Reference dates": "2019-03-14..2019-03-20",
+    "Overlap with month-earlier brightness": 0.4,
+    "Scene": "LC08_L2SP_051024_20190317_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p079_2021-02-02",
+   "prev": [
+    {
+     "date": "2021-01-17",
+     "url": "images/p079_2021-02-02_prev_2021-01-17.jpg"
+    }
+   ],
+   "det_url": "images/p079_2021-02-02_det.jpg",
+   "overlay_url": "images/p079_2021-02-02_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-02-02",
+   "sensor": "L89",
+   "lat": 50.9256,
+   "lon": -127.93933,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 174600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 87,
+    "Source record": "3756",
+    "Reference dates": "2021-01-30..2021-02-05",
+    "Overlap with month-earlier brightness": null,
+    "Scene": "LC08_L2SP_051024_20210202_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p080_2019-04-30",
+   "ref": {
+    "date": "2019-03-18",
+    "days_before": 43,
+    "url": "images/p080_2019-04-30_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-04-20",
+     "url": "images/p080_2019-04-30_prev_2019-04-20.jpg"
+    },
+    {
+     "date": "2019-04-27",
+     "url": "images/p080_2019-04-30_prev_2019-04-27.jpg"
+    }
+   ],
+   "det_url": "images/p080_2019-04-30_det.jpg",
+   "overlay_url": "images/p080_2019-04-30_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-04-30",
+   "sensor": "S2",
+   "lat": 50.92946,
+   "lon": -127.92978,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 173700,
+   "status": "persistent",
+   "tags": [
+    "Loic satellite find",
+    "bright a month earlier too"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 365,
+    "Source record": "3746",
+    "Reference dates": "2019-04-24..2019-04-30",
+    "Overlap with month-earlier brightness": 0.8,
+    "Scene": "S2B_MSIL2A_20190430T193909_R042_T09UWS_20201105T234917"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p081_2019-03-28",
+   "ref": {
+    "date": "2019-02-26",
+    "days_before": 30,
+    "url": "images/p081_2019-03-28_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-18",
+     "url": "images/p081_2019-03-28_prev_2019-03-18.jpg"
+    },
+    {
+     "date": "2019-03-20",
+     "url": "images/p081_2019-03-28_prev_2019-03-20.jpg"
+    }
+   ],
+   "det_url": "images/p081_2019-03-28_det.jpg",
+   "overlay_url": "images/p081_2019-03-28_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-28",
+   "sensor": "S2",
+   "lat": 49.44213,
+   "lon": -126.42613,
+   "place": "DFO Rondeault Pt spawn 1",
+   "area_m2": 172500,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 299,
+    "Source record": "1604-2019-1",
+    "Reference dates": "2019-03-18..2019-03-29",
+    "Overlap with month-earlier brightness": 0.11,
+    "Scene": "S2B_MSIL2A_20190328T193019_R142_T09UXQ_20201007T114828"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p082_2024-03-23",
+   "ref": {
+    "date": "2024-02-19",
+    "days_before": 33,
+    "url": "images/p082_2024-03-23_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-15",
+     "url": "images/p082_2024-03-23_prev_2024-03-15.jpg"
+    },
+    {
+     "date": "2024-03-22",
+     "url": "images/p082_2024-03-23_prev_2024-03-22.jpg"
+    }
+   ],
+   "det_url": "images/p082_2024-03-23_det.jpg",
+   "overlay_url": "images/p082_2024-03-23_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-23",
+   "sensor": "L89",
+   "lat": 50.93266,
+   "lon": -127.92643,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 168300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 487,
+    "Source record": "3772",
+    "Reference dates": "2024-03-18..2024-03-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20240323_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p083_2019-03-26",
+   "ref": {
+    "date": "2019-02-22",
+    "days_before": 32,
+    "url": "images/p083_2019-03-26_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-19",
+     "url": "images/p083_2019-03-26_prev_2019-03-19.jpg"
+    }
+   ],
+   "det_url": "images/p083_2019-03-26_det.jpg",
+   "overlay_url": "images/p083_2019-03-26_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-26",
+   "sensor": "L89",
+   "lat": 49.43732,
+   "lon": -126.42051,
+   "place": "DFO Rondeault Pt spawn 1",
+   "area_m2": 165600,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 903,
+    "Source record": "1604-2019-1",
+    "Reference dates": "2019-03-18..2019-03-29",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20190326_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p084_2022-03-09",
+   "ref": {
+    "date": "2022-02-14",
+    "days_before": 23,
+    "url": "images/p084_2022-03-09_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-02-21",
+     "url": "images/p084_2022-03-09_prev_2022-02-21.jpg"
+    },
+    {
+     "date": "2022-02-22",
+     "url": "images/p084_2022-03-09_prev_2022-02-22.jpg"
+    }
+   ],
+   "det_url": "images/p084_2022-03-09_det.jpg",
+   "overlay_url": "images/p084_2022-03-09_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-03-09",
+   "sensor": "L89",
+   "lat": 50.93125,
+   "lon": -127.92917,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 164700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3755",
+    "Reference dates": "2022-03-06..2022-03-12",
+    "Overlap with month-earlier brightness": 0.17,
+    "Scene": "LC08_L2SP_051024_20220309_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p085_2018-02-12",
+   "prev": [],
+   "det_url": "images/p085_2018-02-12_det.jpg",
+   "overlay_url": "images/p085_2018-02-12_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-12",
+   "sensor": "L89",
+   "lat": 51.08757,
+   "lon": -125.60477,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 162000,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 520,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049024_20180212_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p086_2022-02-21",
+   "ref": {
+    "date": "2022-01-20",
+    "days_before": 32,
+    "url": "images/p086_2022-02-21_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-02-14",
+     "url": "images/p086_2022-02-21_prev_2022-02-14.jpg"
+    }
+   ],
+   "det_url": "images/p086_2022-02-21_det.jpg",
+   "overlay_url": "images/p086_2022-02-21_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-02-21",
+   "sensor": "L89",
+   "lat": 50.92751,
+   "lon": -127.94142,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 148500,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3754",
+    "Reference dates": "2022-02-18..2022-02-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051024_20220221_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p087_2017-02-21",
+   "ref": {
+    "date": "2017-01-12",
+    "days_before": 40,
+    "url": "images/p087_2017-02-21_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p087_2017-02-21_det.jpg",
+   "overlay_url": "images/p087_2017-02-21_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-02-21",
+   "sensor": "S2",
+   "lat": 50.95225,
+   "lon": -125.54828,
+   "place": "DFO site Axe Pt",
+   "area_m2": 145600,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2017 sweep"
+   ],
+   "dfo_match": "DFO site Axe Pt",
+   "fields": {
+    "Distance from reference (m)": 181,
+    "Source record": "1611",
+    "Reference dates": "2017-02-01..2017-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20170221T193421_R142_T10UCB_20210208T153646"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p088_2022-04-11",
+   "ref": {
+    "date": "2022-03-09",
+    "days_before": 33,
+    "url": "images/p088_2022-04-11_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-04-10",
+     "url": "images/p088_2022-04-11_prev_2022-04-10.jpg"
+    }
+   ],
+   "det_url": "images/p088_2022-04-11_det.jpg",
+   "overlay_url": "images/p088_2022-04-11_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-04-11",
+   "sensor": "L89",
+   "lat": 50.92422,
+   "lon": -127.94149,
+   "place": "Loic Hope Is Landsat 9",
+   "area_m2": 144900,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3758",
+    "Reference dates": "2022-04-08..2022-04-14",
+    "Overlap with month-earlier brightness": 0.03,
+    "Scene": "LC09_L2SP_050025_20220411_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p089_2018-03-01",
+   "ref": {
+    "date": "2018-02-09",
+    "days_before": 20,
+    "url": "images/p089_2018-03-01_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p089_2018-03-01_det.jpg",
+   "overlay_url": "images/p089_2018-03-01_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-01",
+   "sensor": "S2",
+   "lat": 50.9395,
+   "lon": -127.91197,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 142100,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 934,
+    "Source record": "3751",
+    "Reference dates": "2018-02-23..2018-03-01",
+    "Overlap with month-earlier brightness": 0.12,
+    "Scene": "S2A_MSIL2A_20180301T194331_R042_T09UWS_20201013T050640"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p090_2024-03-17",
+   "ref": {
+    "date": "2024-02-06",
+    "days_before": 40,
+    "url": "images/p090_2024-03-17_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-16",
+     "url": "images/p090_2024-03-17_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p090_2024-03-17_det.jpg",
+   "overlay_url": "images/p090_2024-03-17_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-17",
+   "sensor": "L89",
+   "lat": 49.9485,
+   "lon": -124.80937,
+   "place": "DFO Savary Is spawn 1",
+   "area_m2": 139500,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Savary Is spawn 1",
+   "fields": {
+    "Distance from reference (m)": 740,
+    "Source record": "854-2024-1",
+    "Reference dates": "2024-03-10..2024-03-21",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "LC09_L2SP_048025_20240317_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p091_2019-02-04",
+   "ref": {
+    "date": "2019-01-07",
+    "days_before": 28,
+    "url": "images/p091_2019-02-04_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-01-20",
+     "url": "images/p091_2019-02-04_prev_2019-01-20.jpg"
+    }
+   ],
+   "det_url": "images/p091_2019-02-04_det.jpg",
+   "overlay_url": "images/p091_2019-02-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-02-04",
+   "sensor": "S2",
+   "lat": 50.87296,
+   "lon": -127.96107,
+   "place": "Loic Bull Hrbr Sentinel-2",
+   "area_m2": 132500,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3725",
+    "Reference dates": "2019-02-01..2019-02-07",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20190204T194621_R042_T09UWS_20201007T135517"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p092_2020-03-15",
+   "prev": [
+    {
+     "date": "2020-02-29",
+     "url": "images/p092_2020-03-15_prev_2020-02-29.jpg"
+    },
+    {
+     "date": "2020-03-07",
+     "url": "images/p092_2020-03-15_prev_2020-03-07.jpg"
+    }
+   ],
+   "det_url": "images/p092_2020-03-15_det.jpg",
+   "overlay_url": "images/p092_2020-03-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-15",
+   "sensor": "S2",
+   "lat": 50.8656,
+   "lon": -128.03725,
+   "place": "Loic Bull Hrbr Sentinel-2",
+   "area_m2": 128600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 75,
+    "Source record": "3726",
+    "Reference dates": "2020-03-12..2020-03-18",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20200315T194149_R042_T09UWS_20201010T084555"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p093_2018-04-22",
+   "ref": {
+    "date": "2018-03-15",
+    "days_before": 38,
+    "url": "images/p093_2018-04-22_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-12",
+     "url": "images/p093_2018-04-22_prev_2018-04-12.jpg"
+    }
+   ],
+   "det_url": "images/p093_2018-04-22_det.jpg",
+   "overlay_url": "images/p093_2018-04-22_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-22",
+   "sensor": "S2",
+   "lat": 51.02764,
+   "lon": -125.582,
+   "place": "DFO site Hatchet Pt",
+   "area_m2": 126700,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Hatchet Pt",
+   "fields": {
+    "Distance from reference (m)": 453,
+    "Source record": "1826",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20180422T192909_R142_T10UCB_20201013T013002"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p094_2019-03-26",
+   "prev": [],
+   "det_url": "images/p094_2019-03-26_det.jpg",
+   "overlay_url": "images/p094_2019-03-26_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-26",
+   "sensor": "L89",
+   "lat": 49.81275,
+   "lon": -126.98257,
+   "place": "DFO Nuchatlitz Inner spawn 1",
+   "area_m2": 125100,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 1",
+   "fields": {
+    "Distance from reference (m)": 658,
+    "Source record": "1657-2019-1",
+    "Reference dates": "2019-03-24..2019-04-04",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20190326_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p095_2025-02-06",
+   "prev": [
+    {
+     "date": "2025-01-21",
+     "url": "images/p095_2025-02-06_prev_2025-01-21.jpg"
+    }
+   ],
+   "det_url": "images/p095_2025-02-06_det.jpg",
+   "overlay_url": "images/p095_2025-02-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-02-06",
+   "sensor": "L89",
+   "lat": 49.79975,
+   "lon": -126.94003,
+   "place": "DFO Port Langford spawn 3",
+   "area_m2": 121500,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Port Langford spawn 3",
+   "fields": {
+    "Distance from reference (m)": 262,
+    "Source record": "1262-2025-3",
+    "Reference dates": "2025-02-03..2025-02-13",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20250206_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p096_2024-03-06",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 20,
+    "url": "images/p096_2024-03-06_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p096_2024-03-06_det.jpg",
+   "overlay_url": "images/p096_2024-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-06",
+   "sensor": "S2",
+   "lat": 49.81099,
+   "lon": -126.9873,
+   "place": "DFO Nuchatlitz Inner spawn 1",
+   "area_m2": 119300,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 1",
+   "fields": {
+    "Distance from reference (m)": 619,
+    "Source record": "1657-2024-1",
+    "Reference dates": "2024-03-03..2024-03-14",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20240306T193251_R142_T09UXR_20240307T005713"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p097_2025-02-14",
+   "ref": {
+    "date": "2025-01-06",
+    "days_before": 39,
+    "url": "images/p097_2025-02-14_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2025-02-06",
+     "url": "images/p097_2025-02-14_prev_2025-02-06.jpg"
+    }
+   ],
+   "det_url": "images/p097_2025-02-14_det.jpg",
+   "overlay_url": "images/p097_2025-02-14_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-02-14",
+   "sensor": "L89",
+   "lat": 49.41825,
+   "lon": -126.47626,
+   "place": "DFO Antons Spit spawn 3",
+   "area_m2": 117900,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Antons Spit spawn 3",
+   "fields": {
+    "Distance from reference (m)": 237,
+    "Source record": "1603-2025-3",
+    "Reference dates": "2025-02-10..2025-02-20",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_050025_20250214_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p098_2018-04-22",
+   "ref": {
+    "date": "2018-03-15",
+    "days_before": 38,
+    "url": "images/p098_2018-04-22_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-12",
+     "url": "images/p098_2018-04-22_prev_2018-04-12.jpg"
+    }
+   ],
+   "det_url": "images/p098_2018-04-22_det.jpg",
+   "overlay_url": "images/p098_2018-04-22_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-22",
+   "sensor": "S2",
+   "lat": 50.96231,
+   "lon": -125.58343,
+   "place": "DFO site Deer Bay",
+   "area_m2": 117200,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Deer Bay",
+   "fields": {
+    "Distance from reference (m)": 205,
+    "Source record": "1731",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20180422T192909_R142_T10UCB_20201013T013002"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p099_2023-01-25",
+   "ref": {
+    "date": "2022-12-31",
+    "days_before": 25,
+    "url": "images/p099_2023-01-25_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p099_2023-01-25_det.jpg",
+   "overlay_url": "images/p099_2023-01-25_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-01-25",
+   "sensor": "L89",
+   "lat": 49.44437,
+   "lon": -126.43084,
+   "place": "DFO Rondeault Pt spawn 2",
+   "area_m2": 117000,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 2",
+   "fields": {
+    "Distance from reference (m)": 171,
+    "Source record": "1604-2023-2",
+    "Reference dates": "2023-01-15..2023-01-25",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049026_20230125_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p100_2021-03-17",
+   "prev": [],
+   "det_url": "images/p100_2021-03-17_det.jpg",
+   "overlay_url": "images/p100_2021-03-17_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-17",
+   "sensor": "L89",
+   "lat": 50.92638,
+   "lon": -124.82977,
+   "place": "DFO Bute Inlt Hd spawn 2",
+   "area_m2": 117000,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Bute Inlt Hd spawn 2",
+   "fields": {
+    "Distance from reference (m)": 148,
+    "Source record": "785-2021-2",
+    "Reference dates": "2021-03-08..2021-03-18",
+    "Overlap with month-earlier brightness": null,
+    "Scene": "LC08_L2SP_048025_20210317_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p101_2024-04-17",
+   "ref": {
+    "date": "2024-03-18",
+    "days_before": 30,
+    "url": "images/p101_2024-04-17_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p101_2024-04-17_det.jpg",
+   "overlay_url": "images/p101_2024-04-17_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-04-17",
+   "sensor": "S2",
+   "lat": 49.84867,
+   "lon": -125.0819,
+   "place": "Loic Black Cr Sentinel-2",
+   "area_m2": 116200,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 143,
+    "Source record": "3694",
+    "Reference dates": "2024-04-14..2024-04-20",
+    "Overlap with month-earlier brightness": 0.06,
+    "Scene": "S2B_MSIL2A_20240417T191909_R099_T10UCA_20240418T013435"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p102_2018-04-01",
+   "ref": {
+    "date": "2018-03-07",
+    "days_before": 25,
+    "url": "images/p102_2018-04-01_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-16",
+     "url": "images/p102_2018-04-01_prev_2018-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p102_2018-04-01_det.jpg",
+   "overlay_url": "images/p102_2018-04-01_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-01",
+   "sensor": "L89",
+   "lat": 51.03432,
+   "lon": -125.55468,
+   "place": "DFO site Rubble Pt",
+   "area_m2": 110700,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Rubble Pt",
+   "fields": {
+    "Distance from reference (m)": 623,
+    "Source record": "1610",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049025_20180401_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p103_2018-04-24",
+   "ref": {
+    "date": "2018-03-30",
+    "days_before": 25,
+    "url": "images/p103_2018-04-24_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-15",
+     "url": "images/p103_2018-04-24_prev_2018-04-15.jpg"
+    }
+   ],
+   "det_url": "images/p103_2018-04-24_det.jpg",
+   "overlay_url": "images/p103_2018-04-24_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-24",
+   "sensor": "L89",
+   "lat": 50.93025,
+   "lon": -127.92983,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 109800,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3745",
+    "Reference dates": "2018-04-21..2018-04-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20180424_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p104_2019-02-13",
+   "ref": {
+    "date": "2019-01-21",
+    "days_before": 23,
+    "url": "images/p104_2019-02-13_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-02-06",
+     "url": "images/p104_2019-02-13_prev_2019-02-06.jpg"
+    }
+   ],
+   "det_url": "images/p104_2019-02-13_det.jpg",
+   "overlay_url": "images/p104_2019-02-13_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-02-13",
+   "sensor": "L89",
+   "lat": 50.92947,
+   "lon": -127.9317,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 109800,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 382,
+    "Source record": "3763",
+    "Reference dates": "2019-02-13..2019-02-19",
+    "Overlap with month-earlier brightness": null,
+    "Scene": "LC08_L2SP_051024_20190213_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p105_2021-03-15",
+   "prev": [],
+   "det_url": "images/p105_2021-03-15_det.jpg",
+   "overlay_url": "images/p105_2021-03-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-15",
+   "sensor": "L89",
+   "lat": 49.4139,
+   "lon": -126.46242,
+   "place": "DFO Antons Spit spawn 1",
+   "area_m2": 108900,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Antons Spit spawn 1",
+   "fields": {
+    "Distance from reference (m)": 409,
+    "Source record": "1603-2021-1",
+    "Reference dates": "2021-03-09..2021-03-22",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20210315_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p106_2018-02-26",
+   "prev": [
+    {
+     "date": "2018-02-10",
+     "url": "images/p106_2018-02-26_prev_2018-02-10.jpg"
+    }
+   ],
+   "det_url": "images/p106_2018-02-26_det.jpg",
+   "overlay_url": "images/p106_2018-02-26_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-26",
+   "sensor": "L89",
+   "lat": 50.94498,
+   "lon": -127.90985,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 100800,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3751",
+    "Reference dates": "2018-02-23..2018-03-01",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051024_20180226_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p107_2024-03-05",
+   "ref": {
+    "date": "2024-02-09",
+    "days_before": 25,
+    "url": "images/p107_2024-03-05_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p107_2024-03-05_det.jpg",
+   "overlay_url": "images/p107_2024-03-05_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-05",
+   "sensor": "S2",
+   "lat": 49.49077,
+   "lon": -123.98404,
+   "place": "Loic Buccaneer Bay Sentinel-2",
+   "area_m2": 93200,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 7,
+    "Source record": "3668",
+    "Reference dates": "2024-03-02..2024-03-08",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240305T191249_R056_T10UDV_20240305T233943"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p108_2022-02-22",
+   "ref": {
+    "date": "2022-01-20",
+    "days_before": 33,
+    "url": "images/p108_2022-02-22_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-02-14",
+     "url": "images/p108_2022-02-22_prev_2022-02-14.jpg"
+    },
+    {
+     "date": "2022-02-21",
+     "url": "images/p108_2022-02-22_prev_2022-02-21.jpg"
+    }
+   ],
+   "det_url": "images/p108_2022-02-22_det.jpg",
+   "overlay_url": "images/p108_2022-02-22_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-02-22",
+   "sensor": "L89",
+   "lat": 50.92866,
+   "lon": -127.93286,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 88200,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 195,
+    "Source record": "3754",
+    "Reference dates": "2022-02-18..2022-02-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_050025_20220222_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p109_2023-03-29",
+   "ref": {
+    "date": "2023-03-04",
+    "days_before": 25,
+    "url": "images/p109_2023-03-29_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2023-03-12",
+     "url": "images/p109_2023-03-29_prev_2023-03-12.jpg"
+    },
+    {
+     "date": "2023-03-28",
+     "url": "images/p109_2023-03-29_prev_2023-03-28.jpg"
+    }
+   ],
+   "det_url": "images/p109_2023-03-29_det.jpg",
+   "overlay_url": "images/p109_2023-03-29_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-03-29",
+   "sensor": "L89",
+   "lat": 50.9293,
+   "lon": -127.93163,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 88200,
+   "status": "persistent",
+   "tags": [
+    "Loic satellite find",
+    "bright a month earlier too"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 437,
+    "Source record": "3770",
+    "Reference dates": "2023-03-29..2023-04-04",
+    "Overlap with month-earlier brightness": 1.0,
+    "Scene": "LC09_L2SP_050025_20230329_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p110_2018-04-15",
+   "ref": {
+    "date": "2018-03-14",
+    "days_before": 32,
+    "url": "images/p110_2018-04-15_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-30",
+     "url": "images/p110_2018-04-15_prev_2018-03-30.jpg"
+    }
+   ],
+   "det_url": "images/p110_2018-04-15_det.jpg",
+   "overlay_url": "images/p110_2018-04-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-15",
+   "sensor": "L89",
+   "lat": 50.93492,
+   "lon": -127.92681,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 87300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3752",
+    "Reference dates": "2018-04-12..2018-04-18",
+    "Overlap with month-earlier brightness": 0.04,
+    "Scene": "LC08_L2SP_051024_20180415_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p111_2017-03-04",
+   "ref": {
+    "date": "2017-01-31",
+    "days_before": 32,
+    "url": "images/p111_2017-03-04_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2017-02-23",
+     "url": "images/p111_2017-03-04_prev_2017-02-23.jpg"
+    }
+   ],
+   "det_url": "images/p111_2017-03-04_det.jpg",
+   "overlay_url": "images/p111_2017-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-04",
+   "sensor": "L89",
+   "lat": 50.86195,
+   "lon": -127.98475,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 85500,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3714",
+    "Reference dates": "2017-03-01..2017-03-07",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20170304_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p112_2022-04-11",
+   "ref": {
+    "date": "2022-03-09",
+    "days_before": 33,
+    "url": "images/p112_2022-04-11_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-04-10",
+     "url": "images/p112_2022-04-11_prev_2022-04-10.jpg"
+    }
+   ],
+   "det_url": "images/p112_2022-04-11_det.jpg",
+   "overlay_url": "images/p112_2022-04-11_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-04-11",
+   "sensor": "L89",
+   "lat": 50.8632,
+   "lon": -127.9806,
+   "place": "Loic Bull Hrbr Landsat 9",
+   "area_m2": 84600,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3722",
+    "Reference dates": "2022-04-08..2022-04-14",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "LC09_L2SP_050025_20220411_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p113_2018-02-26",
+   "prev": [
+    {
+     "date": "2018-02-10",
+     "url": "images/p113_2018-02-26_prev_2018-02-10.jpg"
+    }
+   ],
+   "det_url": "images/p113_2018-02-26_det.jpg",
+   "overlay_url": "images/p113_2018-02-26_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-26",
+   "sensor": "L89",
+   "lat": 50.86647,
+   "lon": -128.02402,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 79200,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3718",
+    "Reference dates": "2018-02-23..2018-03-01",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051024_20180226_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p114_2022-02-05",
+   "ref": {
+    "date": "2022-01-04",
+    "days_before": 32,
+    "url": "images/p114_2022-02-05_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-01-20",
+     "url": "images/p114_2022-02-05_prev_2022-01-20.jpg"
+    }
+   ],
+   "det_url": "images/p114_2022-02-05_det.jpg",
+   "overlay_url": "images/p114_2022-02-05_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-02-05",
+   "sensor": "L89",
+   "lat": 50.87072,
+   "lon": -127.97042,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 76500,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3721",
+    "Reference dates": "2022-02-02..2022-02-08",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051024_20220205_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p115_2018-04-22",
+   "ref": {
+    "date": "2018-03-15",
+    "days_before": 38,
+    "url": "images/p115_2018-04-22_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-12",
+     "url": "images/p115_2018-04-22_prev_2018-04-12.jpg"
+    }
+   ],
+   "det_url": "images/p115_2018-04-22_det.jpg",
+   "overlay_url": "images/p115_2018-04-22_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-22",
+   "sensor": "S2",
+   "lat": 50.955,
+   "lon": -125.57499,
+   "place": "DFO site Axe Pt",
+   "area_m2": 76500,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Axe Pt",
+   "fields": {
+    "Distance from reference (m)": 135,
+    "Source record": "1611",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20180422T192909_R142_T10UCB_20201013T013002"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p116_2018-02-26",
+   "prev": [
+    {
+     "date": "2018-02-11",
+     "url": "images/p116_2018-02-26_prev_2018-02-11.jpg"
+    },
+    {
+     "date": "2018-02-18",
+     "url": "images/p116_2018-02-26_prev_2018-02-18.jpg"
+    }
+   ],
+   "det_url": "images/p116_2018-02-26_det.jpg",
+   "overlay_url": "images/p116_2018-02-26_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-26",
+   "sensor": "S2",
+   "lat": 51.01637,
+   "lon": -125.59335,
+   "place": "DFO site Wahshihlas Bay",
+   "area_m2": 72800,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Wahshihlas Bay",
+   "fields": {
+    "Distance from reference (m)": 557,
+    "Source record": "1388",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180226T193351_R142_T10UCB_20201104T145509"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p117_2021-03-25",
+   "ref": {
+    "date": "2021-02-08",
+    "days_before": 45,
+    "url": "images/p117_2021-03-25_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2021-03-15",
+     "url": "images/p117_2021-03-25_prev_2021-03-15.jpg"
+    },
+    {
+     "date": "2021-03-22",
+     "url": "images/p117_2021-03-25_prev_2021-03-22.jpg"
+    }
+   ],
+   "det_url": "images/p117_2021-03-25_det.jpg",
+   "overlay_url": "images/p117_2021-03-25_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-25",
+   "sensor": "S2",
+   "lat": 50.92796,
+   "lon": -127.94746,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 69400,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 730,
+    "Source record": "3757",
+    "Reference dates": "2021-03-19..2021-03-25",
+    "Overlap with month-earlier brightness": 0.37,
+    "Scene": "S2A_MSIL2A_20210325T194041_R042_T09UWS_20210326T110458"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p118_2017-03-06",
+   "ref": {
+    "date": "2017-02-02",
+    "days_before": 32,
+    "url": "images/p118_2017-03-06_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p118_2017-03-06_det.jpg",
+   "overlay_url": "images/p118_2017-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-06",
+   "sensor": "L89",
+   "lat": 49.42277,
+   "lon": -124.64155,
+   "place": "Loic Nile Cr Landsat 7",
+   "area_m2": 69300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 262,
+    "Source record": "3646",
+    "Reference dates": "2017-03-02..2017-03-08",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_048026_20170306_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p119_2019-04-27",
+   "ref": {
+    "date": "2019-03-17",
+    "days_before": 41,
+    "url": "images/p119_2019-04-27_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p119_2019-04-27_det.jpg",
+   "overlay_url": "images/p119_2019-04-27_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-04-27",
+   "sensor": "L89",
+   "lat": 50.93407,
+   "lon": -127.93145,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 68400,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3746",
+    "Reference dates": "2019-04-24..2019-04-30",
+    "Overlap with month-earlier brightness": 0.03,
+    "Scene": "LC08_L2SP_050025_20190427_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p120_2019-03-18",
+   "ref": {
+    "date": "2019-02-26",
+    "days_before": 20,
+    "url": "images/p120_2019-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-05",
+     "url": "images/p120_2019-03-18_prev_2019-03-05.jpg"
+    },
+    {
+     "date": "2019-03-08",
+     "url": "images/p120_2019-03-18_prev_2019-03-08.jpg"
+    }
+   ],
+   "det_url": "images/p120_2019-03-18_det.jpg",
+   "overlay_url": "images/p120_2019-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-18",
+   "sensor": "S2",
+   "lat": 49.4502,
+   "lon": -126.43133,
+   "place": "DFO Rondeault Pt spawn 1",
+   "area_m2": 67900,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 155,
+    "Source record": "1604-2019-1",
+    "Reference dates": "2019-03-18..2019-03-29",
+    "Overlap with month-earlier brightness": 0.03,
+    "Scene": "S2B_MSIL2A_20190318T193129_R142_T09UXQ_20201007T080405"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p121_2023-03-29",
+   "prev": [
+    {
+     "date": "2023-03-12",
+     "url": "images/p121_2023-03-29_prev_2023-03-12.jpg"
+    },
+    {
+     "date": "2023-03-28",
+     "url": "images/p121_2023-03-29_prev_2023-03-28.jpg"
+    }
+   ],
+   "det_url": "images/p121_2023-03-29_det.jpg",
+   "overlay_url": "images/p121_2023-03-29_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-03-29",
+   "sensor": "L89",
+   "lat": 50.2451,
+   "lon": -127.77636,
+   "place": "DFO Klaskish Inlt spawn 1",
+   "area_m2": 61200,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Klaskish Inlt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 621,
+    "Source record": "1311-2023-1",
+    "Reference dates": "2023-03-24..2023-04-03",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_050025_20230329_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p122_2018-03-18",
+   "ref": {
+    "date": "2018-02-18",
+    "days_before": 28,
+    "url": "images/p122_2018-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-03",
+     "url": "images/p122_2018-03-18_prev_2018-03-03.jpg"
+    },
+    {
+     "date": "2018-03-15",
+     "url": "images/p122_2018-03-18_prev_2018-03-15.jpg"
+    }
+   ],
+   "det_url": "images/p122_2018-03-18_det.jpg",
+   "overlay_url": "images/p122_2018-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-18",
+   "sensor": "S2",
+   "lat": 49.84749,
+   "lon": -126.89663,
+   "place": "DFO Garden Pt spawn 1",
+   "area_m2": 57800,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Garden Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 168,
+    "Source record": "1570-2018-1",
+    "Reference dates": "2018-03-12..2018-03-23",
+    "Overlap with month-earlier brightness": 0.24,
+    "Scene": "S2A_MSIL2A_20180318T193121_R142_T09UXR_20201013T104335"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p123_2020-03-07",
+   "ref": {
+    "date": "2020-02-03",
+    "days_before": 33,
+    "url": "images/p123_2020-03-07_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2020-02-18",
+     "url": "images/p123_2020-03-07_prev_2020-02-18.jpg"
+    }
+   ],
+   "det_url": "images/p123_2020-03-07_det.jpg",
+   "overlay_url": "images/p123_2020-03-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-07",
+   "sensor": "S2",
+   "lat": 49.79798,
+   "lon": -126.92829,
+   "place": "DFO Port Langford spawn 1",
+   "area_m2": 54800,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Port Langford spawn 1",
+   "fields": {
+    "Distance from reference (m)": 853,
+    "Source record": "1262-2020-1",
+    "Reference dates": "2020-03-04..2020-03-16",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20200307T193241_R142_T09UXR_20201003T080049"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p124_2024-03-16",
+   "ref": {
+    "date": "2024-02-06",
+    "days_before": 39,
+    "url": "images/p124_2024-03-16_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p124_2024-03-16_det.jpg",
+   "overlay_url": "images/p124_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "L89",
+   "lat": 49.94796,
+   "lon": -124.80997,
+   "place": "DFO Savary Is spawn 1",
+   "area_m2": 54000,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Savary Is spawn 1",
+   "fields": {
+    "Distance from reference (m)": 784,
+    "Source record": "854-2024-1",
+    "Reference dates": "2024-03-10..2024-03-21",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049025_20240316_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p125_2019-03-01",
+   "ref": {
+    "date": "2019-02-06",
+    "days_before": 23,
+    "url": "images/p125_2019-03-01_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-02-13",
+     "url": "images/p125_2019-03-01_prev_2019-02-13.jpg"
+    }
+   ],
+   "det_url": "images/p125_2019-03-01_det.jpg",
+   "overlay_url": "images/p125_2019-03-01_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-01",
+   "sensor": "L89",
+   "lat": 50.92312,
+   "lon": -127.94351,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 54000,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 571,
+    "Source record": "3764",
+    "Reference dates": "2019-02-26..2019-03-04",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051024_20190301_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p126_2019-03-20",
+   "ref": {
+    "date": "2019-02-26",
+    "days_before": 22,
+    "url": "images/p126_2019-03-20_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-08",
+     "url": "images/p126_2019-03-20_prev_2019-03-08.jpg"
+    },
+    {
+     "date": "2019-03-18",
+     "url": "images/p126_2019-03-20_prev_2019-03-18.jpg"
+    }
+   ],
+   "det_url": "images/p126_2019-03-20_det.jpg",
+   "overlay_url": "images/p126_2019-03-20_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-20",
+   "sensor": "S2",
+   "lat": 49.44343,
+   "lon": -126.42513,
+   "place": "DFO Rondeault Pt spawn 1",
+   "area_m2": 53400,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 168,
+    "Source record": "1604-2019-1",
+    "Reference dates": "2019-03-18..2019-03-29",
+    "Overlap with month-earlier brightness": 0.02,
+    "Scene": "S2A_MSIL2A_20190320T192111_R099_T09UXQ_20201007T083659"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p127_2024-03-16",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 33,
+    "url": "images/p127_2024-03-16_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-06",
+     "url": "images/p127_2024-03-16_prev_2024-03-06.jpg"
+    }
+   ],
+   "det_url": "images/p127_2024-03-16_det.jpg",
+   "overlay_url": "images/p127_2024-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-16",
+   "sensor": "S2",
+   "lat": 49.5938,
+   "lon": -126.61745,
+   "place": "DFO Santa Gertrudis Cv spawn 1",
+   "area_m2": 53400,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Santa Gertrudis Cv spawn 1",
+   "fields": {
+    "Distance from reference (m)": 815,
+    "Source record": "1281-2024-1",
+    "Reference dates": "2024-03-13..2024-03-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20240316T193141_R142_T09UXR_20240317T022536"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p128_2018-02-16",
+   "prev": [
+    {
+     "date": "2018-02-08",
+     "url": "images/p128_2018-02-16_prev_2018-02-08.jpg"
+    },
+    {
+     "date": "2018-02-11",
+     "url": "images/p128_2018-02-16_prev_2018-02-11.jpg"
+    }
+   ],
+   "det_url": "images/p128_2018-02-16_det.jpg",
+   "overlay_url": "images/p128_2018-02-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-16",
+   "sensor": "S2",
+   "lat": 51.01669,
+   "lon": -125.58353,
+   "place": "DFO site Wahshihlas Bay",
+   "area_m2": 53200,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Wahshihlas Bay",
+   "fields": {
+    "Distance from reference (m)": 539,
+    "Source record": "1388",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180216T193501_R142_T10UCB_20201013T215533"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p129_2019-03-21",
+   "ref": {
+    "date": "2019-02-24",
+    "days_before": 25,
+    "url": "images/p129_2019-03-21_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-08",
+     "url": "images/p129_2019-03-21_prev_2019-03-08.jpg"
+    },
+    {
+     "date": "2019-03-18",
+     "url": "images/p129_2019-03-21_prev_2019-03-18.jpg"
+    }
+   ],
+   "det_url": "images/p129_2019-03-21_det.jpg",
+   "overlay_url": "images/p129_2019-03-21_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-21",
+   "sensor": "S2",
+   "lat": 50.93763,
+   "lon": -127.90995,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 52500,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 525,
+    "Source record": "3765",
+    "Reference dates": "2019-03-20..2019-03-26",
+    "Overlap with month-earlier brightness": 0.32,
+    "Scene": "S2B_MSIL2A_20190321T194109_R042_T09UWS_20201007T091013"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p130_2017-03-04",
+   "ref": {
+    "date": "2017-01-31",
+    "days_before": 32,
+    "url": "images/p130_2017-03-04_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p130_2017-03-04_det.jpg",
+   "overlay_url": "images/p130_2017-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-04",
+   "sensor": "L89",
+   "lat": 51.08006,
+   "lon": -125.61098,
+   "place": "DFO Knight Inlt Hd spawn 1",
+   "area_m2": 51300,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn near Salmon Coast"
+   ],
+   "dfo_match": "DFO Knight Inlt Hd spawn 1",
+   "fields": {
+    "Distance from reference (m)": 885,
+    "Source record": "1730-2017-1",
+    "Reference dates": "2017-02-22..2017-03-04",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050024_20170304_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p131_2019-02-26",
+   "ref": {
+    "date": "2019-02-04",
+    "days_before": 22,
+    "url": "images/p131_2019-02-26_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-02-16",
+     "url": "images/p131_2019-02-26_prev_2019-02-16.jpg"
+    },
+    {
+     "date": "2019-02-24",
+     "url": "images/p131_2019-02-26_prev_2019-02-24.jpg"
+    }
+   ],
+   "det_url": "images/p131_2019-02-26_det.jpg",
+   "overlay_url": "images/p131_2019-02-26_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-02-26",
+   "sensor": "S2",
+   "lat": 50.92422,
+   "lon": -127.94633,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 50000,
+   "status": "persistent",
+   "tags": [
+    "Loic satellite find",
+    "bright a month earlier too"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 465,
+    "Source record": "3764",
+    "Reference dates": "2019-02-26..2019-03-04",
+    "Overlap with month-earlier brightness": 0.77,
+    "Scene": "S2B_MSIL2A_20190226T193349_R142_T09UWS_20201007T210129"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p132_2025-03-13",
+   "ref": {
+    "date": "2025-02-06",
+    "days_before": 35,
+    "url": "images/p132_2025-03-13_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2025-03-06",
+     "url": "images/p132_2025-03-13_prev_2025-03-06.jpg"
+    }
+   ],
+   "det_url": "images/p132_2025-03-13_det.jpg",
+   "overlay_url": "images/p132_2025-03-13_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-03-13",
+   "sensor": "S2",
+   "lat": 49.66973,
+   "lon": -126.86856,
+   "place": "DFO Skuna Bay spawn 1",
+   "area_m2": 49900,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Skuna Bay spawn 1",
+   "fields": {
+    "Distance from reference (m)": 98,
+    "Source record": "3148-2025-1",
+    "Reference dates": "2025-03-06..2025-03-16",
+    "Overlap with month-earlier brightness": 0.32,
+    "Scene": "S2B_MSIL2A_20250313T192109_R099_T09UXR_20250314T002419"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p133_2019-02-04",
+   "ref": {
+    "date": "2019-01-07",
+    "days_before": 28,
+    "url": "images/p133_2019-02-04_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-01-20",
+     "url": "images/p133_2019-02-04_prev_2019-01-20.jpg"
+    }
+   ],
+   "det_url": "images/p133_2019-02-04_det.jpg",
+   "overlay_url": "images/p133_2019-02-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-02-04",
+   "sensor": "S2",
+   "lat": 50.87588,
+   "lon": -127.93328,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 48800,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 225,
+    "Source record": "3716",
+    "Reference dates": "2019-02-03..2019-02-09",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20190204T194621_R042_T09UWS_20201007T135517"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p134_2024-02-05",
+   "ref": {
+    "date": "2024-01-06",
+    "days_before": 30,
+    "url": "images/p134_2024-02-05_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-02-02",
+     "url": "images/p134_2024-02-05_prev_2024-02-02.jpg"
+    }
+   ],
+   "det_url": "images/p134_2024-02-05_det.jpg",
+   "overlay_url": "images/p134_2024-02-05_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-02-05",
+   "sensor": "S2",
+   "lat": 49.44536,
+   "lon": -126.43299,
+   "place": "DFO Rondeault Pt spawn 2",
+   "area_m2": 47700,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 2",
+   "fields": {
+    "Distance from reference (m)": 55,
+    "Source record": "1604-2024-2",
+    "Reference dates": "2024-02-02..2024-02-13",
+    "Overlap with month-earlier brightness": 0.06,
+    "Scene": "S2A_MSIL2A_20240205T193611_R142_T09UXQ_20240205T235449"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p135_2024-03-17",
+   "ref": {
+    "date": "2024-02-06",
+    "days_before": 40,
+    "url": "images/p135_2024-03-17_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-16",
+     "url": "images/p135_2024-03-17_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p135_2024-03-17_det.jpg",
+   "overlay_url": "images/p135_2024-03-17_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-17",
+   "sensor": "L89",
+   "lat": 49.54606,
+   "lon": -124.75372,
+   "place": "Loic Fillongley Park Landsat 9",
+   "area_m2": 47700,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3680",
+    "Reference dates": "2024-03-14..2024-03-20",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_048026_20240317_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p136_2022-04-14",
+   "ref": {
+    "date": "2022-03-05",
+    "days_before": 40,
+    "url": "images/p136_2022-04-14_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-04-11",
+     "url": "images/p136_2022-04-14_prev_2022-04-11.jpg"
+    }
+   ],
+   "det_url": "images/p136_2022-04-14_det.jpg",
+   "overlay_url": "images/p136_2022-04-14_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-04-14",
+   "sensor": "S2",
+   "lat": 50.92326,
+   "lon": -127.94287,
+   "place": "Loic Hope Is Landsat 9",
+   "area_m2": 46300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 714,
+    "Source record": "3758",
+    "Reference dates": "2022-04-08..2022-04-14",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20220414T193859_R042_T09UWS_20220415T093551"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p137_2018-03-01",
+   "ref": {
+    "date": "2018-02-09",
+    "days_before": 20,
+    "url": "images/p137_2018-03-01_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p137_2018-03-01_det.jpg",
+   "overlay_url": "images/p137_2018-03-01_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-01",
+   "sensor": "S2",
+   "lat": 50.86685,
+   "lon": -128.02522,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 45200,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 315,
+    "Source record": "3718",
+    "Reference dates": "2018-02-23..2018-03-01",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180301T194331_R042_T09UWS_20201013T050640"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p138_2020-03-09",
+   "ref": {
+    "date": "2020-02-18",
+    "days_before": 20,
+    "url": "images/p138_2020-03-09_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2020-03-04",
+     "url": "images/p138_2020-03-09_prev_2020-03-04.jpg"
+    },
+    {
+     "date": "2020-03-06",
+     "url": "images/p138_2020-03-09_prev_2020-03-06.jpg"
+    }
+   ],
+   "det_url": "images/p138_2020-03-09_det.jpg",
+   "overlay_url": "images/p138_2020-03-09_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-09",
+   "sensor": "S2",
+   "lat": 49.35538,
+   "lon": -124.45209,
+   "place": "Loic Qualicum Beach Sentinel-2",
+   "area_m2": 39300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 207,
+    "Source record": "3628",
+    "Reference dates": "2020-03-08..2020-03-14",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20200309T192219_R099_T10UCV_20201002T153300"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p139_2024-03-06",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 20,
+    "url": "images/p139_2024-03-06_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-04",
+     "url": "images/p139_2024-03-06_prev_2024-03-04.jpg"
+    }
+   ],
+   "det_url": "images/p139_2024-03-06_det.jpg",
+   "overlay_url": "images/p139_2024-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-06",
+   "sensor": "S2",
+   "lat": 50.49796,
+   "lon": -128.03879,
+   "place": "DFO Hazard Pt spawn 1",
+   "area_m2": 38500,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Hazard Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 722,
+    "Source record": "1321-2024-1",
+    "Reference dates": "2024-02-29..2024-03-13",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20240306T193251_R142_T09UWS_20240307T003557"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p140_2024-03-15",
+   "ref": {
+    "date": "2024-02-03",
+    "days_before": 41,
+    "url": "images/p140_2024-03-15_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p140_2024-03-15_det.jpg",
+   "overlay_url": "images/p140_2024-03-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-15",
+   "sensor": "L89",
+   "lat": 50.86666,
+   "lon": -128.03012,
+   "place": "Loic Bull Hrbr Sentinel-2",
+   "area_m2": 36900,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 165,
+    "Source record": "3728",
+    "Reference dates": "2024-03-13..2024-03-19",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_050025_20240315_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p141_2018-03-03",
+   "ref": {
+    "date": "2018-02-11",
+    "days_before": 20,
+    "url": "images/p141_2018-03-03_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-02-18",
+     "url": "images/p141_2018-03-03_prev_2018-02-18.jpg"
+    },
+    {
+     "date": "2018-02-26",
+     "url": "images/p141_2018-03-03_prev_2018-02-26.jpg"
+    }
+   ],
+   "det_url": "images/p141_2018-03-03_det.jpg",
+   "overlay_url": "images/p141_2018-03-03_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-03",
+   "sensor": "S2",
+   "lat": 49.79827,
+   "lon": -126.92459,
+   "place": "DFO Port Langford spawn 1",
+   "area_m2": 34800,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Port Langford spawn 1",
+   "fields": {
+    "Distance from reference (m)": 874,
+    "Source record": "1262-2018-1",
+    "Reference dates": "2018-03-02..2018-03-12",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20180303T193309_R142_T09UXR_20201013T061250"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p142_2024-03-04",
+   "ref": {
+    "date": "2024-02-13",
+    "days_before": 20,
+    "url": "images/p142_2024-03-04_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-02-15",
+     "url": "images/p142_2024-03-04_prev_2024-02-15.jpg"
+    }
+   ],
+   "det_url": "images/p142_2024-03-04_det.jpg",
+   "overlay_url": "images/p142_2024-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-04",
+   "sensor": "S2",
+   "lat": 50.24502,
+   "lon": -127.78288,
+   "place": "DFO Klaskish Inlt spawn 1",
+   "area_m2": 34000,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Klaskish Inlt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 674,
+    "Source record": "1311-2024-1",
+    "Reference dates": "2024-02-29..2024-03-14",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240304T194309_R042_T09UWR_20240304T234037"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p143_2022-03-07",
+   "ref": {
+    "date": "2022-01-31",
+    "days_before": 35,
+    "url": "images/p143_2022-03-07_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-03-05",
+     "url": "images/p143_2022-03-07_prev_2022-03-05.jpg"
+    }
+   ],
+   "det_url": "images/p143_2022-03-07_det.jpg",
+   "overlay_url": "images/p143_2022-03-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-03-07",
+   "sensor": "S2",
+   "lat": 50.92905,
+   "lon": -127.93249,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 32400,
+   "status": "persistent",
+   "tags": [
+    "Loic satellite find",
+    "bright a month earlier too"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 366,
+    "Source record": "3755",
+    "Reference dates": "2022-03-06..2022-03-12",
+    "Overlap with month-earlier brightness": 0.64,
+    "Scene": "S2A_MSIL2A_20220307T193251_R142_T09UWS_20240525T115051"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p144_2018-02-26",
+   "prev": [
+    {
+     "date": "2018-02-11",
+     "url": "images/p144_2018-02-26_prev_2018-02-11.jpg"
+    },
+    {
+     "date": "2018-02-18",
+     "url": "images/p144_2018-02-26_prev_2018-02-18.jpg"
+    }
+   ],
+   "det_url": "images/p144_2018-02-26_det.jpg",
+   "overlay_url": "images/p144_2018-02-26_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-02-26",
+   "sensor": "S2",
+   "lat": 50.96253,
+   "lon": -125.57382,
+   "place": "DFO site Deer Bay",
+   "area_m2": 32300,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Deer Bay",
+   "fields": {
+    "Distance from reference (m)": 974,
+    "Source record": "1731",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180226T193351_R142_T10UCB_20201104T145509"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p145_2017-03-04",
+   "ref": {
+    "date": "2017-01-31",
+    "days_before": 32,
+    "url": "images/p145_2017-03-04_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p145_2017-03-04_det.jpg",
+   "overlay_url": "images/p145_2017-03-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-04",
+   "sensor": "L89",
+   "lat": 51.03115,
+   "lon": -125.58079,
+   "place": "DFO site Hatchet Pt",
+   "area_m2": 30600,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2017 sweep"
+   ],
+   "dfo_match": "DFO site Hatchet Pt",
+   "fields": {
+    "Distance from reference (m)": 893,
+    "Source record": "1826",
+    "Reference dates": "2017-02-01..2017-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050024_20170304_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p146_2023-04-04",
+   "ref": {
+    "date": "2023-02-23",
+    "days_before": 40,
+    "url": "images/p146_2023-04-04_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2023-03-27",
+     "url": "images/p146_2023-04-04_prev_2023-03-27.jpg"
+    },
+    {
+     "date": "2023-04-01",
+     "url": "images/p146_2023-04-04_prev_2023-04-01.jpg"
+    }
+   ],
+   "det_url": "images/p146_2023-04-04_det.jpg",
+   "overlay_url": "images/p146_2023-04-04_overlay.jpg",
+   "kind": "candidate",
+   "date": "2023-04-04",
+   "sensor": "S2",
+   "lat": 50.9307,
+   "lon": -127.92776,
+   "place": "Loic Hope Is Sentinel-2",
+   "area_m2": 26200,
+   "status": "persistent",
+   "tags": [
+    "Loic satellite find",
+    "bright a month earlier too"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 424,
+    "Source record": "3770",
+    "Reference dates": "2023-03-29..2023-04-04",
+    "Overlap with month-earlier brightness": 0.79,
+    "Scene": "S2A_MSIL2A_20230404T193931_R042_T09UWS_20240826T062150"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p147_2024-03-06",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 20,
+    "url": "images/p147_2024-03-06_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p147_2024-03-06_det.jpg",
+   "overlay_url": "images/p147_2024-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-06",
+   "sensor": "S2",
+   "lat": 49.84397,
+   "lon": -127.00692,
+   "place": "DFO Double Is spawn 1",
+   "area_m2": 23300,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Double Is spawn 1",
+   "fields": {
+    "Distance from reference (m)": 435,
+    "Source record": "1273-2024-1",
+    "Reference dates": "2024-03-03..2024-03-14",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20240306T193251_R142_T09UXR_20240307T005713"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p148_2018-03-03",
+   "ref": {
+    "date": "2018-02-11",
+    "days_before": 20,
+    "url": "images/p148_2018-03-03_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-02-18",
+     "url": "images/p148_2018-03-03_prev_2018-02-18.jpg"
+    },
+    {
+     "date": "2018-02-26",
+     "url": "images/p148_2018-03-03_prev_2018-02-26.jpg"
+    }
+   ],
+   "det_url": "images/p148_2018-03-03_det.jpg",
+   "overlay_url": "images/p148_2018-03-03_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-03",
+   "sensor": "S2",
+   "lat": 49.80865,
+   "lon": -126.97496,
+   "place": "DFO Nuchatlitz Inner spawn 1",
+   "area_m2": 21000,
+   "status": "persistent",
+   "tags": [
+    "DFO spawn 75-150 km out",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 1",
+   "fields": {
+    "Distance from reference (m)": 835,
+    "Source record": "1657-2018-1",
+    "Reference dates": "2018-03-02..2018-03-12",
+    "Overlap with month-earlier brightness": 0.72,
+    "Scene": "S2B_MSIL2A_20180303T193309_R142_T09UXR_20201013T061250"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p149_2019-03-31",
+   "ref": {
+    "date": "2019-02-24",
+    "days_before": 35,
+    "url": "images/p149_2019-03-31_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-21",
+     "url": "images/p149_2019-03-31_prev_2019-03-21.jpg"
+    },
+    {
+     "date": "2019-03-28",
+     "url": "images/p149_2019-03-31_prev_2019-03-28.jpg"
+    }
+   ],
+   "det_url": "images/p149_2019-03-31_det.jpg",
+   "overlay_url": "images/p149_2019-03-31_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-31",
+   "sensor": "S2",
+   "lat": 51.53184,
+   "lon": -127.92904,
+   "place": "DFO Safety Cv spawn 1",
+   "area_m2": 20800,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Safety Cv spawn 1",
+   "fields": {
+    "Distance from reference (m)": 464,
+    "Source record": "618-2019-1",
+    "Reference dates": "2019-03-22..2019-04-02",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20190331T194009_R042_T09UWT_20201007T125731"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p150_2018-03-30",
+   "ref": {
+    "date": "2018-03-03",
+    "days_before": 27,
+    "url": "images/p150_2018-03-30_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-15",
+     "url": "images/p150_2018-03-30_prev_2018-03-15.jpg"
+    },
+    {
+     "date": "2018-03-18",
+     "url": "images/p150_2018-03-30_prev_2018-03-18.jpg"
+    }
+   ],
+   "det_url": "images/p150_2018-03-30_det.jpg",
+   "overlay_url": "images/p150_2018-03-30_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-30",
+   "sensor": "S2",
+   "lat": 51.01741,
+   "lon": -125.59755,
+   "place": "DFO site Wahshihlas Bay",
+   "area_m2": 19500,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Wahshihlas Bay",
+   "fields": {
+    "Distance from reference (m)": 385,
+    "Source record": "1388",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.06,
+    "Scene": "S2B_MSIL2A_20180330T191959_R099_T10UCB_20201013T165420"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p151_2018-04-27",
+   "ref": {
+    "date": "2018-03-16",
+    "days_before": 42,
+    "url": "images/p151_2018-04-27_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-22",
+     "url": "images/p151_2018-04-27_prev_2018-04-22.jpg"
+    },
+    {
+     "date": "2018-04-25",
+     "url": "images/p151_2018-04-27_prev_2018-04-25.jpg"
+    }
+   ],
+   "det_url": "images/p151_2018-04-27_det.jpg",
+   "overlay_url": "images/p151_2018-04-27_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-27",
+   "sensor": "S2",
+   "lat": 50.85975,
+   "lon": -128.00523,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 17100,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 256,
+    "Source record": "3715",
+    "Reference dates": "2018-04-21..2018-04-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180427T192911_R142_T09UWS_20201013T032031"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p152_2017-03-30",
+   "ref": {
+    "date": "2017-02-21",
+    "days_before": 37,
+    "url": "images/p152_2017-03-30_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p152_2017-03-30_det.jpg",
+   "overlay_url": "images/p152_2017-03-30_overlay.jpg",
+   "kind": "candidate",
+   "date": "2017-03-30",
+   "sensor": "S2",
+   "lat": 50.96403,
+   "lon": -125.58701,
+   "place": "DFO site Deer Bay",
+   "area_m2": 16600,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2017 sweep"
+   ],
+   "dfo_match": "DFO site Deer Bay",
+   "fields": {
+    "Distance from reference (m)": 202,
+    "Source record": "1731",
+    "Reference dates": "2017-02-01..2017-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20170330T191951_R099_T10UCB_20210209T031205"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p153_2021-02-05",
+   "ref": {
+    "date": "2021-01-04",
+    "days_before": 32,
+    "url": "images/p153_2021-02-05_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2021-01-21",
+     "url": "images/p153_2021-02-05_prev_2021-01-21.jpg"
+    }
+   ],
+   "det_url": "images/p153_2021-02-05_det.jpg",
+   "overlay_url": "images/p153_2021-02-05_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-02-05",
+   "sensor": "S2",
+   "lat": 50.92696,
+   "lon": -127.94527,
+   "place": "Loic Hope Is Landsat 8",
+   "area_m2": 16400,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 418,
+    "Source record": "3756",
+    "Reference dates": "2021-01-30..2021-02-05",
+    "Overlap with month-earlier brightness": 0.26,
+    "Scene": "S2B_MSIL2A_20210205T193609_R142_T09UWS_20210210T050625"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p154_2018-03-07",
+   "ref": {
+    "date": "2018-02-12",
+    "days_before": 23,
+    "url": "images/p154_2018-03-07_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p154_2018-03-07_det.jpg",
+   "overlay_url": "images/p154_2018-03-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-07",
+   "sensor": "L89",
+   "lat": 51.08947,
+   "lon": -125.62765,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 16200,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 876,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050024_20180307_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p155_2021-03-14",
+   "ref": {
+    "date": "2021-01-28",
+    "days_before": 45,
+    "url": "images/p155_2021-03-14_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2021-03-07",
+     "url": "images/p155_2021-03-14_prev_2021-03-07.jpg"
+    }
+   ],
+   "det_url": "images/p155_2021-03-14_det.jpg",
+   "overlay_url": "images/p155_2021-03-14_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-14",
+   "sensor": "S2",
+   "lat": 49.41716,
+   "lon": -126.48245,
+   "place": "DFO Antons Spit spawn 1",
+   "area_m2": 15800,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Antons Spit spawn 1",
+   "fields": {
+    "Distance from reference (m)": 151,
+    "Source record": "1603-2021-1",
+    "Reference dates": "2021-03-09..2021-03-22",
+    "Overlap with month-earlier brightness": 0.09,
+    "Scene": "S2B_MSIL2A_20210314T192049_R099_T09UXQ_20210315T230544"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p156_2024-04-18",
+   "ref": {
+    "date": "2024-03-16",
+    "days_before": 33,
+    "url": "images/p156_2024-04-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-04-10",
+     "url": "images/p156_2024-04-18_prev_2024-04-10.jpg"
+    },
+    {
+     "date": "2024-04-17",
+     "url": "images/p156_2024-04-18_prev_2024-04-17.jpg"
+    }
+   ],
+   "det_url": "images/p156_2024-04-18_det.jpg",
+   "overlay_url": "images/p156_2024-04-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-04-18",
+   "sensor": "L89",
+   "lat": 49.85229,
+   "lon": -125.08799,
+   "place": "Loic Black Cr Sentinel-2",
+   "area_m2": 15300,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 449,
+    "Source record": "3694",
+    "Reference dates": "2024-04-14..2024-04-20",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC09_L2SP_048025_20240418_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p157_2018-03-15",
+   "ref": {
+    "date": "2018-02-11",
+    "days_before": 32,
+    "url": "images/p157_2018-03-15_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-03",
+     "url": "images/p157_2018-03-15_prev_2018-03-03.jpg"
+    }
+   ],
+   "det_url": "images/p157_2018-03-15_det.jpg",
+   "overlay_url": "images/p157_2018-03-15_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-15",
+   "sensor": "S2",
+   "lat": 50.62446,
+   "lon": -126.24718,
+   "place": "DFO site Cutter Cv",
+   "area_m2": 13600,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Cutter Cv",
+   "fields": {
+    "Distance from reference (m)": 757,
+    "Source record": "707",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20180315T192141_R099_T09UXS_20201013T091935"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p158_2024-03-24",
+   "ref": {
+    "date": "2024-02-15",
+    "days_before": 38,
+    "url": "images/p158_2024-03-24_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-16",
+     "url": "images/p158_2024-03-24_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p158_2024-03-24_det.jpg",
+   "overlay_url": "images/p158_2024-03-24_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-24",
+   "sensor": "S2",
+   "lat": 50.87149,
+   "lon": -127.96266,
+   "place": "Loic Bull Hrbr Sentinel-2",
+   "area_m2": 13100,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 145,
+    "Source record": "3729",
+    "Reference dates": "2024-03-18..2024-03-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240324T193959_R042_T09UWS_20240324T235006"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p159_2025-03-06",
+   "ref": {
+    "date": "2025-02-06",
+    "days_before": 28,
+    "url": "images/p159_2025-03-06_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p159_2025-03-06_det.jpg",
+   "overlay_url": "images/p159_2025-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-03-06",
+   "sensor": "S2",
+   "lat": 49.60959,
+   "lon": -126.61274,
+   "place": "DFO McKay Psg spawn 1",
+   "area_m2": 12600,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO McKay Psg spawn 1",
+   "fields": {
+    "Distance from reference (m)": 660,
+    "Source record": "1277-2025-1",
+    "Reference dates": "2025-02-28..2025-03-13",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20250306T193159_R142_T09UXR_20250306T214507"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p160_2024-03-18",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 35,
+    "url": "images/p160_2024-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-06",
+     "url": "images/p160_2024-03-18_prev_2024-03-06.jpg"
+    },
+    {
+     "date": "2024-03-16",
+     "url": "images/p160_2024-03-18_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p160_2024-03-18_det.jpg",
+   "overlay_url": "images/p160_2024-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-18",
+   "sensor": "S2",
+   "lat": 49.61092,
+   "lon": -126.57028,
+   "place": "DFO Pantoja Is spawn 1",
+   "area_m2": 11800,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Pantoja Is spawn 1",
+   "fields": {
+    "Distance from reference (m)": 495,
+    "Source record": "1246-2024-1",
+    "Reference dates": "2024-03-13..2024-03-24",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240318T192019_R099_T09UXR_20240319T011528"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p161_2025-04-27",
+   "ref": {
+    "date": "2025-04-03",
+    "days_before": 24,
+    "url": "images/p161_2025-04-27_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2025-04-12",
+     "url": "images/p161_2025-04-27_prev_2025-04-12.jpg"
+    }
+   ],
+   "det_url": "images/p161_2025-04-27_det.jpg",
+   "overlay_url": "images/p161_2025-04-27_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-04-27",
+   "sensor": "L89",
+   "lat": 49.62545,
+   "lon": -126.62269,
+   "place": "DFO Boca del Infierno Bay spawn 2",
+   "area_m2": 11700,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Boca del Infierno Bay spawn 2",
+   "fields": {
+    "Distance from reference (m)": 665,
+    "Source record": "3032-2025-2",
+    "Reference dates": "2025-04-24..2025-05-04",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050025_20250427_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p162_2018-04-27",
+   "ref": {
+    "date": "2018-03-15",
+    "days_before": 43,
+    "url": "images/p162_2018-04-27_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-04-22",
+     "url": "images/p162_2018-04-27_prev_2018-04-22.jpg"
+    }
+   ],
+   "det_url": "images/p162_2018-04-27_det.jpg",
+   "overlay_url": "images/p162_2018-04-27_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-04-27",
+   "sensor": "S2",
+   "lat": 50.62476,
+   "lon": -126.24816,
+   "place": "DFO site Cutter Cv",
+   "area_m2": 11600,
+   "status": "persistent",
+   "tags": [
+    "Salmon Coast 2018 sweep",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO site Cutter Cv",
+   "fields": {
+    "Distance from reference (m)": 730,
+    "Source record": "707",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.64,
+    "Scene": "S2A_MSIL2A_20180427T192911_R142_T09UXS_20201013T032035"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p163_2025-03-06",
+   "ref": {
+    "date": "2025-02-06",
+    "days_before": 28,
+    "url": "images/p163_2025-03-06_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p163_2025-03-06_det.jpg",
+   "overlay_url": "images/p163_2025-03-06_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-03-06",
+   "sensor": "S2",
+   "lat": 49.61087,
+   "lon": -126.57216,
+   "place": "DFO Pantoja Is spawn 1",
+   "area_m2": 10800,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Pantoja Is spawn 1",
+   "fields": {
+    "Distance from reference (m)": 503,
+    "Source record": "1246-2025-1",
+    "Reference dates": "2025-03-03..2025-03-13",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20250306T193159_R142_T09UXR_20250306T214507"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p164_2022-04-10",
+   "ref": {
+    "date": "2022-03-09",
+    "days_before": 32,
+    "url": "images/p164_2022-04-10_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p164_2022-04-10_det.jpg",
+   "overlay_url": "images/p164_2022-04-10_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-04-10",
+   "sensor": "L89",
+   "lat": 50.92409,
+   "lon": -127.94214,
+   "place": "Loic Hope Is Landsat 9",
+   "area_m2": 10800,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 921,
+    "Source record": "3758",
+    "Reference dates": "2022-04-08..2022-04-14",
+    "Overlap with month-earlier brightness": 0.25,
+    "Scene": "LC08_L2SP_051024_20220410_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p165_2018-03-16",
+   "ref": {
+    "date": "2018-02-12",
+    "days_before": 32,
+    "url": "images/p165_2018-03-16_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-07",
+     "url": "images/p165_2018-03-16_prev_2018-03-07.jpg"
+    }
+   ],
+   "det_url": "images/p165_2018-03-16_det.jpg",
+   "overlay_url": "images/p165_2018-03-16_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-16",
+   "sensor": "L89",
+   "lat": 51.09056,
+   "lon": -125.62765,
+   "place": "DFO site Knight Inlt Hd",
+   "area_m2": 10800,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Knight Inlt Hd",
+   "fields": {
+    "Distance from reference (m)": 798,
+    "Source record": "1730",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_049024_20180316_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p166_2020-03-07",
+   "ref": {
+    "date": "2020-02-03",
+    "days_before": 33,
+    "url": "images/p166_2020-03-07_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2020-02-18",
+     "url": "images/p166_2020-03-07_prev_2020-02-18.jpg"
+    }
+   ],
+   "det_url": "images/p166_2020-03-07_det.jpg",
+   "overlay_url": "images/p166_2020-03-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-07",
+   "sensor": "S2",
+   "lat": 49.80766,
+   "lon": -126.97705,
+   "place": "DFO Nuchatlitz Inner spawn 1",
+   "area_m2": 10600,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 1",
+   "fields": {
+    "Distance from reference (m)": 974,
+    "Source record": "1657-2020-1",
+    "Reference dates": "2020-03-01..2020-03-16",
+    "Overlap with month-earlier brightness": 0.01,
+    "Scene": "S2A_MSIL2A_20200307T193241_R142_T09UXR_20201003T080049"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p167_2021-03-22",
+   "ref": {
+    "date": "2021-02-05",
+    "days_before": 45,
+    "url": "images/p167_2021-03-22_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2021-03-07",
+     "url": "images/p167_2021-03-22_prev_2021-03-07.jpg"
+    },
+    {
+     "date": "2021-03-14",
+     "url": "images/p167_2021-03-22_prev_2021-03-14.jpg"
+    }
+   ],
+   "det_url": "images/p167_2021-03-22_det.jpg",
+   "overlay_url": "images/p167_2021-03-22_overlay.jpg",
+   "kind": "candidate",
+   "date": "2021-03-22",
+   "sensor": "S2",
+   "lat": 49.44292,
+   "lon": -126.42408,
+   "place": "DFO Rondeault Pt spawn 1",
+   "area_m2": 9200,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Rondeault Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 571,
+    "Source record": "1604-2021-1",
+    "Reference dates": "2021-03-09..2021-03-22",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20210322T193101_R142_T09UXQ_20210323T100234"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p168_2019-03-28",
+   "ref": {
+    "date": "2019-03-05",
+    "days_before": 23,
+    "url": "images/p168_2019-03-28_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-18",
+     "url": "images/p168_2019-03-28_prev_2019-03-18.jpg"
+    },
+    {
+     "date": "2019-03-20",
+     "url": "images/p168_2019-03-28_prev_2019-03-20.jpg"
+    }
+   ],
+   "det_url": "images/p168_2019-03-28_det.jpg",
+   "overlay_url": "images/p168_2019-03-28_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-28",
+   "sensor": "S2",
+   "lat": 49.8157,
+   "lon": -126.98467,
+   "place": "DFO Nuchatlitz Inner spawn 1",
+   "area_m2": 9000,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 1",
+   "fields": {
+    "Distance from reference (m)": 866,
+    "Source record": "1657-2019-1",
+    "Reference dates": "2019-03-24..2019-04-04",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20190328T193019_R142_T09UXR_20201007T114829"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p169_2018-03-07",
+   "ref": {
+    "date": "2018-02-12",
+    "days_before": 23,
+    "url": "images/p169_2018-03-07_ref.jpg"
+   },
+   "prev": [],
+   "det_url": "images/p169_2018-03-07_det.jpg",
+   "overlay_url": "images/p169_2018-03-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-07",
+   "sensor": "L89",
+   "lat": 51.02108,
+   "lon": -125.58153,
+   "place": "DFO site Hatchet Pt",
+   "area_m2": 9000,
+   "status": "candidate",
+   "tags": [
+    "Salmon Coast 2018 sweep"
+   ],
+   "dfo_match": "DFO site Hatchet Pt",
+   "fields": {
+    "Distance from reference (m)": 854,
+    "Source record": "1826",
+    "Reference dates": "2018-02-01..2018-04-30",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_050024_20180307_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p170_2018-03-18",
+   "ref": {
+    "date": "2018-02-18",
+    "days_before": 28,
+    "url": "images/p170_2018-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2018-03-03",
+     "url": "images/p170_2018-03-18_prev_2018-03-03.jpg"
+    },
+    {
+     "date": "2018-03-15",
+     "url": "images/p170_2018-03-18_prev_2018-03-15.jpg"
+    }
+   ],
+   "det_url": "images/p170_2018-03-18_det.jpg",
+   "overlay_url": "images/p170_2018-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2018-03-18",
+   "sensor": "S2",
+   "lat": 49.80778,
+   "lon": -126.97749,
+   "place": "DFO Nuchatlitz Inner spawn 2",
+   "area_m2": 8400,
+   "status": "persistent",
+   "tags": [
+    "DFO spawn 75-150 km out",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 2",
+   "fields": {
+    "Distance from reference (m)": 960,
+    "Source record": "1657-2018-2",
+    "Reference dates": "2018-03-13..2018-03-25",
+    "Overlap with month-earlier brightness": 0.79,
+    "Scene": "S2A_MSIL2A_20180318T193121_R142_T09UXR_20201013T104335"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p171_2024-03-18",
+   "ref": {
+    "date": "2024-02-12",
+    "days_before": 35,
+    "url": "images/p171_2024-03-18_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-03-06",
+     "url": "images/p171_2024-03-18_prev_2024-03-06.jpg"
+    },
+    {
+     "date": "2024-03-16",
+     "url": "images/p171_2024-03-18_prev_2024-03-16.jpg"
+    }
+   ],
+   "det_url": "images/p171_2024-03-18_det.jpg",
+   "overlay_url": "images/p171_2024-03-18_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-03-18",
+   "sensor": "S2",
+   "lat": 49.44642,
+   "lon": -126.45954,
+   "place": "DFO Leclaire Pt spawn 1",
+   "area_m2": 8400,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Leclaire Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 190,
+    "Source record": "1605-2024-1",
+    "Reference dates": "2024-03-12..2024-03-27",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20240318T192019_R099_T09UXQ_20240319T010444"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p172_2022-03-07",
+   "ref": {
+    "date": "2022-02-15",
+    "days_before": 20,
+    "url": "images/p172_2022-03-07_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-02-22",
+     "url": "images/p172_2022-03-07_prev_2022-02-22.jpg"
+    },
+    {
+     "date": "2022-03-04",
+     "url": "images/p172_2022-03-07_prev_2022-03-04.jpg"
+    }
+   ],
+   "det_url": "images/p172_2022-03-07_det.jpg",
+   "overlay_url": "images/p172_2022-03-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-03-07",
+   "sensor": "S2",
+   "lat": 49.84058,
+   "lon": -127.04215,
+   "place": "DFO Catala Is spawn 1",
+   "area_m2": 8100,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Catala Is spawn 1",
+   "fields": {
+    "Distance from reference (m)": 696,
+    "Source record": "1261-2022-1",
+    "Reference dates": "2022-03-02..2022-03-13",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20220307T193251_R142_T09UXR_20240525T115051"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p173_2020-03-09",
+   "ref": {
+    "date": "2020-02-18",
+    "days_before": 20,
+    "url": "images/p173_2020-03-09_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2020-03-07",
+     "url": "images/p173_2020-03-09_prev_2020-03-07.jpg"
+    }
+   ],
+   "det_url": "images/p173_2020-03-09_det.jpg",
+   "overlay_url": "images/p173_2020-03-09_overlay.jpg",
+   "kind": "candidate",
+   "date": "2020-03-09",
+   "sensor": "S2",
+   "lat": 49.80747,
+   "lon": -126.97723,
+   "place": "DFO Nuchatlitz Inner spawn 1",
+   "area_m2": 7900,
+   "status": "persistent",
+   "tags": [
+    "DFO spawn 75-150 km out",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 1",
+   "fields": {
+    "Distance from reference (m)": 989,
+    "Source record": "1657-2020-1",
+    "Reference dates": "2020-03-01..2020-03-16",
+    "Overlap with month-earlier brightness": 0.56,
+    "Scene": "S2B_MSIL2A_20200309T192219_R099_T09UXR_20201002T153235"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p174_2024-02-12",
+   "ref": {
+    "date": "2024-01-11",
+    "days_before": 32,
+    "url": "images/p174_2024-02-12_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-02-05",
+     "url": "images/p174_2024-02-12_prev_2024-02-05.jpg"
+    }
+   ],
+   "det_url": "images/p174_2024-02-12_det.jpg",
+   "overlay_url": "images/p174_2024-02-12_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-02-12",
+   "sensor": "S2",
+   "lat": 49.80775,
+   "lon": -126.97729,
+   "place": "DFO Nuchatlitz Inner spawn 2",
+   "area_m2": 7600,
+   "status": "persistent",
+   "tags": [
+    "DFO spawn 75-150 km out",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 2",
+   "fields": {
+    "Distance from reference (m)": 974,
+    "Source record": "1657-2024-2",
+    "Reference dates": "2024-02-05..2024-02-15",
+    "Overlap with month-earlier brightness": 0.74,
+    "Scene": "S2A_MSIL2A_20240212T192521_R099_T09UXR_20240212T231754"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p175_2025-03-13",
+   "ref": {
+    "date": "2025-02-06",
+    "days_before": 35,
+    "url": "images/p175_2025-03-13_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2025-03-06",
+     "url": "images/p175_2025-03-13_prev_2025-03-06.jpg"
+    }
+   ],
+   "det_url": "images/p175_2025-03-13_det.jpg",
+   "overlay_url": "images/p175_2025-03-13_overlay.jpg",
+   "kind": "candidate",
+   "date": "2025-03-13",
+   "sensor": "S2",
+   "lat": 49.61627,
+   "lon": -126.82364,
+   "place": "DFO Bajo Pt spawn 1",
+   "area_m2": 7600,
+   "status": "persistent",
+   "tags": [
+    "DFO spawn 75-150 km out",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO Bajo Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 267,
+    "Source record": "1472-2025-1",
+    "Reference dates": "2025-03-03..2025-03-13",
+    "Overlap with month-earlier brightness": 1.0,
+    "Scene": "S2B_MSIL2A_20250313T192109_R099_T09UXR_20250314T002419"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p176_2019-03-23",
+   "ref": {
+    "date": "2019-02-24",
+    "days_before": 27,
+    "url": "images/p176_2019-03-23_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-18",
+     "url": "images/p176_2019-03-23_prev_2019-03-18.jpg"
+    },
+    {
+     "date": "2019-03-21",
+     "url": "images/p176_2019-03-23_prev_2019-03-21.jpg"
+    }
+   ],
+   "det_url": "images/p176_2019-03-23_det.jpg",
+   "overlay_url": "images/p176_2019-03-23_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-23",
+   "sensor": "S2",
+   "lat": 50.93804,
+   "lon": -127.92787,
+   "place": "Loic Hope Is Landsat 7",
+   "area_m2": 7600,
+   "status": "persistent",
+   "tags": [
+    "Loic satellite find",
+    "bright a month earlier too"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 195,
+    "Source record": "3741",
+    "Reference dates": "2019-03-22..2019-03-28",
+    "Overlap with month-earlier brightness": 0.58,
+    "Scene": "S2A_MSIL2A_20190323T193051_R142_T09UWS_20201007T094425"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p177_2022-03-07",
+   "ref": {
+    "date": "2022-01-31",
+    "days_before": 35,
+    "url": "images/p177_2022-03-07_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2022-03-05",
+     "url": "images/p177_2022-03-07_prev_2022-03-05.jpg"
+    }
+   ],
+   "det_url": "images/p177_2022-03-07_det.jpg",
+   "overlay_url": "images/p177_2022-03-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2022-03-07",
+   "sensor": "S2",
+   "lat": 50.49554,
+   "lon": -128.04063,
+   "place": "DFO Forward Inlt spawn 1",
+   "area_m2": 7400,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Forward Inlt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 986,
+    "Source record": "1319-2022-1",
+    "Reference dates": "2022-03-04..2022-03-14",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2A_MSIL2A_20220307T193251_R142_T09UWS_20240525T115051"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p178_2024-02-07",
+   "ref": {
+    "date": "2024-01-11",
+    "days_before": 27,
+    "url": "images/p178_2024-02-07_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2024-02-05",
+     "url": "images/p178_2024-02-07_prev_2024-02-05.jpg"
+    }
+   ],
+   "det_url": "images/p178_2024-02-07_det.jpg",
+   "overlay_url": "images/p178_2024-02-07_overlay.jpg",
+   "kind": "candidate",
+   "date": "2024-02-07",
+   "sensor": "S2",
+   "lat": 49.80747,
+   "lon": -126.97626,
+   "place": "DFO Nuchatlitz Inner spawn 2",
+   "area_m2": 7400,
+   "status": "persistent",
+   "tags": [
+    "DFO spawn 75-150 km out",
+    "bright a month earlier too"
+   ],
+   "dfo_match": "DFO Nuchatlitz Inner spawn 2",
+   "fields": {
+    "Distance from reference (m)": 987,
+    "Source record": "1657-2024-2",
+    "Reference dates": "2024-02-05..2024-02-15",
+    "Overlap with month-earlier brightness": 0.7,
+    "Scene": "S2B_MSIL2A_20240207T192559_R099_T09UXR_20240207T235044"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p179_2019-03-17",
+   "ref": {
+    "date": "2019-02-13",
+    "days_before": 32,
+    "url": "images/p179_2019-03-17_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-01",
+     "url": "images/p179_2019-03-17_prev_2019-03-01.jpg"
+    }
+   ],
+   "det_url": "images/p179_2019-03-17_det.jpg",
+   "overlay_url": "images/p179_2019-03-17_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-17",
+   "sensor": "L89",
+   "lat": 50.86408,
+   "lon": -128.00126,
+   "place": "Loic Bull Hrbr Landsat 8",
+   "area_m2": 7200,
+   "status": "candidate",
+   "tags": [
+    "Loic satellite find"
+   ],
+   "dfo_match": null,
+   "fields": {
+    "Distance from reference (m)": 21,
+    "Source record": "3720",
+    "Reference dates": "2019-03-14..2019-03-20",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "LC08_L2SP_051024_20190317_02_T1"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  },
+  {
+   "id": "p180_2019-03-31",
+   "ref": {
+    "date": "2019-02-24",
+    "days_before": 35,
+    "url": "images/p180_2019-03-31_ref.jpg"
+   },
+   "prev": [
+    {
+     "date": "2019-03-21",
+     "url": "images/p180_2019-03-31_prev_2019-03-21.jpg"
+    },
+    {
+     "date": "2019-03-28",
+     "url": "images/p180_2019-03-31_prev_2019-03-28.jpg"
+    }
+   ],
+   "det_url": "images/p180_2019-03-31_det.jpg",
+   "overlay_url": "images/p180_2019-03-31_overlay.jpg",
+   "kind": "candidate",
+   "date": "2019-03-31",
+   "sensor": "S2",
+   "lat": 51.71177,
+   "lon": -127.88699,
+   "place": "DFO Whidbey Pt spawn 1",
+   "area_m2": 7100,
+   "status": "candidate",
+   "tags": [
+    "DFO spawn 75-150 km out"
+   ],
+   "dfo_match": "DFO Whidbey Pt spawn 1",
+   "fields": {
+    "Distance from reference (m)": 453,
+    "Source record": "1529-2019-1",
+    "Reference dates": "2019-03-29..2019-04-08",
+    "Overlap with month-earlier brightness": 0.0,
+    "Scene": "S2B_MSIL2A_20190331T194009_R042_T09UWT_20201007T125731"
+   },
+   "note": "Yellow outline: spawn-index patch on the detection pass."
+  }
+ ]
+}
